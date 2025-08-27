@@ -8,8 +8,9 @@ module.exports = {
       fontFamily: {
         ppSans: ['ppSans', 'sans-serif']
       },
-      
     }
   },
-  plugins: []
+  plugins: [
+    
+  ]
 }

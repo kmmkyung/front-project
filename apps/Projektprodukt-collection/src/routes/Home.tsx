@@ -94,7 +94,7 @@ export default function Home(){
 
   return (
     <main>
-      <section ref={videoSectionRef} className="w-full h-screen relative overflow-hidden"
+      <section ref={videoSectionRef} className="w-full h-screen relative"
         onPointerMove={cursorMove}
         onPointerEnter={() => setCursorVideoVisible(true)}
         onPointerLeave={() => setCursorVideoVisible(false)}

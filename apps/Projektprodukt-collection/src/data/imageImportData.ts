@@ -1,7 +1,12 @@
 import logo from '../assets/images/company/logo.png';
-import video from '../assets/video/collection-video.mp4';
 import humanity_logo from '../assets/images/company/humanity_logo.png';
 
+import about_video from '../assets/video/about-video.mp4';
+import aboutBg01 from '../assets/images/about/background-01.jpg';
+import aboutBg02 from '../assets/images/about/background-02.jpg';
+import aboutBg03 from '../assets/images/about/background-03.jpg';
+
+import collection_video from '../assets/video/collection-video.mp4';
 import collection01 from '../assets/images/collection/Collection-01.jpg';
 
 import glasses01 from '../assets/images/product/Glasses/Glasses-01.jpg';
@@ -248,17 +253,267 @@ import sunGlasses05_05_06 from '../assets/images/product/Sunglasses/Sunglasses-0
 import sunGlasses05_05_07 from '../assets/images/product/Sunglasses/Sunglasses-05/05/sunGlasses-05-05-07.jpg';
 import sunGlasses05_05_08 from '../assets/images/product/Sunglasses/Sunglasses-05/05/sunGlasses-05-05-08.jpg';
 
-import sunGlasses06_01_01 from '../assets/images/product/Sunglasses/Sunglasses-06/01/sunGlasses-06-01.jpg';
+import sunGlasses06_color_01 from '../assets/images/product/Sunglasses/Sunglasses-06/color/01.png';
+import sunGlasses06_color_02 from '../assets/images/product/Sunglasses/Sunglasses-06/color/02.png';
+import sunGlasses06_color_03 from '../assets/images/product/Sunglasses/Sunglasses-06/color/03.png';
+import sunGlasses06_color_04 from '../assets/images/product/Sunglasses/Sunglasses-06/color/04.png';
+import sunGlasses06_color_05 from '../assets/images/product/Sunglasses/Sunglasses-06/color/05.png';
+import sunGlasses06_01_01 from '../assets/images/product/Sunglasses/Sunglasses-06/01/sunGlasses-06-01-01.jpg';
+import sunGlasses06_01_02 from '../assets/images/product/Sunglasses/Sunglasses-06/01/sunGlasses-06-01-02.jpg';
+import sunGlasses06_01_03 from '../assets/images/product/Sunglasses/Sunglasses-06/01/sunGlasses-06-01-03.jpg';
+import sunGlasses06_01_04 from '../assets/images/product/Sunglasses/Sunglasses-06/01/sunGlasses-06-01-04.jpg';
+import sunGlasses06_01_05 from '../assets/images/product/Sunglasses/Sunglasses-06/01/sunGlasses-06-01-05.jpg';
+import sunGlasses06_01_06 from '../assets/images/product/Sunglasses/Sunglasses-06/01/sunGlasses-06-01-06.jpg';
+import sunGlasses06_01_07 from '../assets/images/product/Sunglasses/Sunglasses-06/01/sunGlasses-06-01-07.jpg';
+import sunGlasses06_01_08 from '../assets/images/product/Sunglasses/Sunglasses-06/01/sunGlasses-06-01-08.jpg';
 
-import sunGlasses07_01_01 from '../assets/images/product/Sunglasses/Sunglasses-07/01/sunGlasses-07-01.jpg';
+import sunGlasses06_02_01 from '../assets/images/product/Sunglasses/Sunglasses-06/02/sunGlasses-06-02-01.jpg';
+import sunGlasses06_02_02 from '../assets/images/product/Sunglasses/Sunglasses-06/02/sunGlasses-06-02-02.jpg';
+import sunGlasses06_02_03 from '../assets/images/product/Sunglasses/Sunglasses-06/02/sunGlasses-06-02-03.jpg';
+import sunGlasses06_02_04 from '../assets/images/product/Sunglasses/Sunglasses-06/02/sunGlasses-06-02-04.jpg';
+import sunGlasses06_02_05 from '../assets/images/product/Sunglasses/Sunglasses-06/02/sunGlasses-06-02-05.jpg';
+import sunGlasses06_02_06 from '../assets/images/product/Sunglasses/Sunglasses-06/02/sunGlasses-06-02-06.jpg';
+import sunGlasses06_02_07 from '../assets/images/product/Sunglasses/Sunglasses-06/02/sunGlasses-06-02-07.jpg';
+import sunGlasses06_02_08 from '../assets/images/product/Sunglasses/Sunglasses-06/02/sunGlasses-06-02-08.jpg';
 
-import sunGlasses08_01_01 from '../assets/images/product/Sunglasses/Sunglasses-08/01/sunGlasses-08-01.jpg';
+import sunGlasses06_03_01 from '../assets/images/product/Sunglasses/Sunglasses-06/03/sunGlasses-06-03-01.jpg';
+import sunGlasses06_03_02 from '../assets/images/product/Sunglasses/Sunglasses-06/03/sunGlasses-06-03-02.jpg';
+import sunGlasses06_03_03 from '../assets/images/product/Sunglasses/Sunglasses-06/03/sunGlasses-06-03-03.jpg';
+import sunGlasses06_03_04 from '../assets/images/product/Sunglasses/Sunglasses-06/03/sunGlasses-06-03-04.jpg';
+import sunGlasses06_03_05 from '../assets/images/product/Sunglasses/Sunglasses-06/03/sunGlasses-06-03-05.jpg';
+import sunGlasses06_03_06 from '../assets/images/product/Sunglasses/Sunglasses-06/03/sunGlasses-06-03-06.jpg';
+import sunGlasses06_03_07 from '../assets/images/product/Sunglasses/Sunglasses-06/03/sunGlasses-06-03-07.jpg';
+import sunGlasses06_03_08 from '../assets/images/product/Sunglasses/Sunglasses-06/03/sunGlasses-06-03-08.jpg';
 
-import sunGlasses09_01_01 from '../assets/images/product/Sunglasses/Sunglasses-09/01/sunGlasses-09-01.jpg';
+import sunGlasses06_04_01 from '../assets/images/product/Sunglasses/Sunglasses-06/04/sunGlasses-06-04-01.jpg';
+import sunGlasses06_04_02 from '../assets/images/product/Sunglasses/Sunglasses-06/04/sunGlasses-06-04-02.jpg';
+import sunGlasses06_04_03 from '../assets/images/product/Sunglasses/Sunglasses-06/04/sunGlasses-06-04-03.jpg';
+import sunGlasses06_04_04 from '../assets/images/product/Sunglasses/Sunglasses-06/04/sunGlasses-06-04-04.jpg';
+import sunGlasses06_04_05 from '../assets/images/product/Sunglasses/Sunglasses-06/04/sunGlasses-06-04-05.jpg';
+import sunGlasses06_04_06 from '../assets/images/product/Sunglasses/Sunglasses-06/04/sunGlasses-06-04-06.jpg';
+import sunGlasses06_04_07 from '../assets/images/product/Sunglasses/Sunglasses-06/04/sunGlasses-06-04-07.jpg';
+import sunGlasses06_04_08 from '../assets/images/product/Sunglasses/Sunglasses-06/04/sunGlasses-06-04-08.jpg';
 
-import sunGlasses10_01_01 from '../assets/images/product/Sunglasses/Sunglasses-10/01/sunGlasses-10-01.jpg';
+import sunGlasses06_05_01 from '../assets/images/product/Sunglasses/Sunglasses-06/05/sunGlasses-06-05-01.jpg';
+import sunGlasses06_05_02 from '../assets/images/product/Sunglasses/Sunglasses-06/05/sunGlasses-06-05-02.jpg';
+import sunGlasses06_05_03 from '../assets/images/product/Sunglasses/Sunglasses-06/05/sunGlasses-06-05-03.jpg';
+import sunGlasses06_05_04 from '../assets/images/product/Sunglasses/Sunglasses-06/05/sunGlasses-06-05-04.jpg';
+import sunGlasses06_05_05 from '../assets/images/product/Sunglasses/Sunglasses-06/05/sunGlasses-06-05-05.jpg';
+import sunGlasses06_05_06 from '../assets/images/product/Sunglasses/Sunglasses-06/05/sunGlasses-06-05-06.jpg';
+import sunGlasses06_05_07 from '../assets/images/product/Sunglasses/Sunglasses-06/05/sunGlasses-06-05-07.jpg';
+import sunGlasses06_05_08 from '../assets/images/product/Sunglasses/Sunglasses-06/05/sunGlasses-06-05-08.jpg';
 
-import sunGlasses11_01_01 from '../assets/images/product/Sunglasses/Sunglasses-11/01/sunGlasses-11-01.jpg';
+import sunGlasses07_color_01 from '../assets/images/product/Sunglasses/Sunglasses-07/color/01.png';
+import sunGlasses07_color_02 from '../assets/images/product/Sunglasses/Sunglasses-07/color/02.png';
+import sunGlasses07_color_03 from '../assets/images/product/Sunglasses/Sunglasses-07/color/03.png';
+import sunGlasses07_color_04 from '../assets/images/product/Sunglasses/Sunglasses-07/color/04.png';
+import sunGlasses07_01_01 from '../assets/images/product/Sunglasses/Sunglasses-07/01/sunGlasses-07-01-01.jpg';
+import sunGlasses07_01_02 from '../assets/images/product/Sunglasses/Sunglasses-07/01/sunGlasses-07-01-02.jpg';
+import sunGlasses07_01_03 from '../assets/images/product/Sunglasses/Sunglasses-07/01/sunGlasses-07-01-03.jpg';
+import sunGlasses07_01_04 from '../assets/images/product/Sunglasses/Sunglasses-07/01/sunGlasses-07-01-04.jpg';
+import sunGlasses07_01_05 from '../assets/images/product/Sunglasses/Sunglasses-07/01/sunGlasses-07-01-05.jpg';
+import sunGlasses07_01_06 from '../assets/images/product/Sunglasses/Sunglasses-07/01/sunGlasses-07-01-06.jpg';
+import sunGlasses07_01_07 from '../assets/images/product/Sunglasses/Sunglasses-07/01/sunGlasses-07-01-07.jpg';
+import sunGlasses07_01_08 from '../assets/images/product/Sunglasses/Sunglasses-07/01/sunGlasses-07-01-08.jpg';
+
+import sunGlasses07_02_01 from '../assets/images/product/Sunglasses/Sunglasses-07/02/sunGlasses-07-02-01.jpg';
+import sunGlasses07_02_02 from '../assets/images/product/Sunglasses/Sunglasses-07/02/sunGlasses-07-02-02.jpg';
+import sunGlasses07_02_03 from '../assets/images/product/Sunglasses/Sunglasses-07/02/sunGlasses-07-02-03.jpg';
+import sunGlasses07_02_04 from '../assets/images/product/Sunglasses/Sunglasses-07/02/sunGlasses-07-02-04.jpg';
+import sunGlasses07_02_05 from '../assets/images/product/Sunglasses/Sunglasses-07/02/sunGlasses-07-02-05.jpg';
+import sunGlasses07_02_06 from '../assets/images/product/Sunglasses/Sunglasses-07/02/sunGlasses-07-02-06.jpg';
+import sunGlasses07_02_07 from '../assets/images/product/Sunglasses/Sunglasses-07/02/sunGlasses-07-02-07.jpg';
+import sunGlasses07_02_08 from '../assets/images/product/Sunglasses/Sunglasses-07/02/sunGlasses-07-02-08.jpg';
+
+import sunGlasses07_03_01 from '../assets/images/product/Sunglasses/Sunglasses-07/03/sunGlasses-07-03-01.jpg';
+import sunGlasses07_03_02 from '../assets/images/product/Sunglasses/Sunglasses-07/03/sunGlasses-07-03-02.jpg';
+import sunGlasses07_03_03 from '../assets/images/product/Sunglasses/Sunglasses-07/03/sunGlasses-07-03-03.jpg';
+import sunGlasses07_03_04 from '../assets/images/product/Sunglasses/Sunglasses-07/03/sunGlasses-07-03-04.jpg';
+import sunGlasses07_03_05 from '../assets/images/product/Sunglasses/Sunglasses-07/03/sunGlasses-07-03-05.jpg';
+import sunGlasses07_03_06 from '../assets/images/product/Sunglasses/Sunglasses-07/03/sunGlasses-07-03-06.jpg';
+import sunGlasses07_03_07 from '../assets/images/product/Sunglasses/Sunglasses-07/03/sunGlasses-07-03-07.jpg';
+import sunGlasses07_03_08 from '../assets/images/product/Sunglasses/Sunglasses-07/03/sunGlasses-07-03-08.jpg';
+
+import sunGlasses07_04_01 from '../assets/images/product/Sunglasses/Sunglasses-07/04/sunGlasses-07-04-01.jpg';
+import sunGlasses07_04_02 from '../assets/images/product/Sunglasses/Sunglasses-07/04/sunGlasses-07-04-02.jpg';
+import sunGlasses07_04_03 from '../assets/images/product/Sunglasses/Sunglasses-07/04/sunGlasses-07-04-03.jpg';
+import sunGlasses07_04_04 from '../assets/images/product/Sunglasses/Sunglasses-07/04/sunGlasses-07-04-04.jpg';
+import sunGlasses07_04_05 from '../assets/images/product/Sunglasses/Sunglasses-07/04/sunGlasses-07-04-05.jpg';
+import sunGlasses07_04_06 from '../assets/images/product/Sunglasses/Sunglasses-07/04/sunGlasses-07-04-06.jpg';
+import sunGlasses07_04_07 from '../assets/images/product/Sunglasses/Sunglasses-07/04/sunGlasses-07-04-07.jpg';
+import sunGlasses07_04_08 from '../assets/images/product/Sunglasses/Sunglasses-07/04/sunGlasses-07-04-08.jpg';
+
+import sunGlasses08_color_01 from '../assets/images/product/Sunglasses/Sunglasses-08/color/01.png';
+import sunGlasses08_color_02 from '../assets/images/product/Sunglasses/Sunglasses-08/color/02.png';
+import sunGlasses08_color_03 from '../assets/images/product/Sunglasses/Sunglasses-08/color/03.png';
+import sunGlasses08_color_04 from '../assets/images/product/Sunglasses/Sunglasses-08/color/04.png';
+import sunGlasses08_01_01 from '../assets/images/product/Sunglasses/Sunglasses-08/01/sunGlasses-08-01-01.jpg';
+import sunGlasses08_01_02 from '../assets/images/product/Sunglasses/Sunglasses-08/01/sunGlasses-08-01-02.jpg';
+import sunGlasses08_01_03 from '../assets/images/product/Sunglasses/Sunglasses-08/01/sunGlasses-08-01-03.jpg';
+import sunGlasses08_01_04 from '../assets/images/product/Sunglasses/Sunglasses-08/01/sunGlasses-08-01-04.jpg';
+import sunGlasses08_01_05 from '../assets/images/product/Sunglasses/Sunglasses-08/01/sunGlasses-08-01-05.jpg';
+import sunGlasses08_01_06 from '../assets/images/product/Sunglasses/Sunglasses-08/01/sunGlasses-08-01-06.jpg';
+import sunGlasses08_01_07 from '../assets/images/product/Sunglasses/Sunglasses-08/01/sunGlasses-08-01-07.jpg';
+import sunGlasses08_01_08 from '../assets/images/product/Sunglasses/Sunglasses-08/01/sunGlasses-08-01-08.jpg';
+
+import sunGlasses08_02_01 from '../assets/images/product/Sunglasses/Sunglasses-08/02/sunGlasses-08-02-01.jpg';
+import sunGlasses08_02_02 from '../assets/images/product/Sunglasses/Sunglasses-08/02/sunGlasses-08-02-02.jpg';
+import sunGlasses08_02_03 from '../assets/images/product/Sunglasses/Sunglasses-08/02/sunGlasses-08-02-03.jpg';
+import sunGlasses08_02_04 from '../assets/images/product/Sunglasses/Sunglasses-08/02/sunGlasses-08-02-04.jpg';
+import sunGlasses08_02_05 from '../assets/images/product/Sunglasses/Sunglasses-08/02/sunGlasses-08-02-05.jpg';
+import sunGlasses08_02_06 from '../assets/images/product/Sunglasses/Sunglasses-08/02/sunGlasses-08-02-06.jpg';
+import sunGlasses08_02_07 from '../assets/images/product/Sunglasses/Sunglasses-08/02/sunGlasses-08-02-07.jpg';
+import sunGlasses08_02_08 from '../assets/images/product/Sunglasses/Sunglasses-08/02/sunGlasses-08-02-08.jpg';
+
+import sunGlasses08_03_01 from '../assets/images/product/Sunglasses/Sunglasses-08/03/sunGlasses-08-03-01.jpg';
+import sunGlasses08_03_02 from '../assets/images/product/Sunglasses/Sunglasses-08/03/sunGlasses-08-03-02.jpg';
+import sunGlasses08_03_03 from '../assets/images/product/Sunglasses/Sunglasses-08/03/sunGlasses-08-03-03.jpg';
+import sunGlasses08_03_04 from '../assets/images/product/Sunglasses/Sunglasses-08/03/sunGlasses-08-03-04.jpg';
+import sunGlasses08_03_05 from '../assets/images/product/Sunglasses/Sunglasses-08/03/sunGlasses-08-03-05.jpg';
+import sunGlasses08_03_06 from '../assets/images/product/Sunglasses/Sunglasses-08/03/sunGlasses-08-03-06.jpg';
+import sunGlasses08_03_07 from '../assets/images/product/Sunglasses/Sunglasses-08/03/sunGlasses-08-03-07.jpg';
+import sunGlasses08_03_08 from '../assets/images/product/Sunglasses/Sunglasses-08/03/sunGlasses-08-03-08.jpg';
+
+import sunGlasses08_04_01 from '../assets/images/product/Sunglasses/Sunglasses-08/04/sunGlasses-08-04-01.jpg';
+import sunGlasses08_04_02 from '../assets/images/product/Sunglasses/Sunglasses-08/04/sunGlasses-08-04-02.jpg';
+import sunGlasses08_04_03 from '../assets/images/product/Sunglasses/Sunglasses-08/04/sunGlasses-08-04-03.jpg';
+import sunGlasses08_04_04 from '../assets/images/product/Sunglasses/Sunglasses-08/04/sunGlasses-08-04-04.jpg';
+import sunGlasses08_04_05 from '../assets/images/product/Sunglasses/Sunglasses-08/04/sunGlasses-08-04-05.jpg';
+import sunGlasses08_04_06 from '../assets/images/product/Sunglasses/Sunglasses-08/04/sunGlasses-08-04-06.jpg';
+import sunGlasses08_04_07 from '../assets/images/product/Sunglasses/Sunglasses-08/04/sunGlasses-08-04-07.jpg';
+import sunGlasses08_04_08 from '../assets/images/product/Sunglasses/Sunglasses-08/04/sunGlasses-08-04-08.jpg';
+
+
+import sunGlasses09_color_01 from '../assets/images/product/Sunglasses/Sunglasses-09/color/01.png';
+import sunGlasses09_color_02 from '../assets/images/product/Sunglasses/Sunglasses-09/color/02.png';
+import sunGlasses09_color_03 from '../assets/images/product/Sunglasses/Sunglasses-09/color/03.png';
+import sunGlasses09_color_04 from '../assets/images/product/Sunglasses/Sunglasses-09/color/04.png';
+import sunGlasses09_01_01 from '../assets/images/product/Sunglasses/Sunglasses-09/01/sunGlasses-09-01-01.jpg';
+import sunGlasses09_01_02 from '../assets/images/product/Sunglasses/Sunglasses-09/01/sunGlasses-09-01-02.jpg';
+import sunGlasses09_01_03 from '../assets/images/product/Sunglasses/Sunglasses-09/01/sunGlasses-09-01-03.jpg';
+import sunGlasses09_01_04 from '../assets/images/product/Sunglasses/Sunglasses-09/01/sunGlasses-09-01-04.jpg';
+import sunGlasses09_01_05 from '../assets/images/product/Sunglasses/Sunglasses-09/01/sunGlasses-09-01-05.jpg';
+import sunGlasses09_01_06 from '../assets/images/product/Sunglasses/Sunglasses-09/01/sunGlasses-09-01-06.jpg';
+import sunGlasses09_01_07 from '../assets/images/product/Sunglasses/Sunglasses-09/01/sunGlasses-09-01-07.jpg';
+import sunGlasses09_01_08 from '../assets/images/product/Sunglasses/Sunglasses-09/01/sunGlasses-09-01-08.jpg';
+
+import sunGlasses09_02_01 from '../assets/images/product/Sunglasses/Sunglasses-09/02/sunGlasses-09-02-01.jpg';
+import sunGlasses09_02_02 from '../assets/images/product/Sunglasses/Sunglasses-09/02/sunGlasses-09-02-02.jpg';
+import sunGlasses09_02_03 from '../assets/images/product/Sunglasses/Sunglasses-09/02/sunGlasses-09-02-03.jpg';
+import sunGlasses09_02_04 from '../assets/images/product/Sunglasses/Sunglasses-09/02/sunGlasses-09-02-04.jpg';
+import sunGlasses09_02_05 from '../assets/images/product/Sunglasses/Sunglasses-09/02/sunGlasses-09-02-05.jpg';
+import sunGlasses09_02_06 from '../assets/images/product/Sunglasses/Sunglasses-09/02/sunGlasses-09-02-06.jpg';
+import sunGlasses09_02_07 from '../assets/images/product/Sunglasses/Sunglasses-09/02/sunGlasses-09-02-07.jpg';
+import sunGlasses09_02_08 from '../assets/images/product/Sunglasses/Sunglasses-09/02/sunGlasses-09-02-08.jpg';
+
+import sunGlasses09_03_01 from '../assets/images/product/Sunglasses/Sunglasses-09/03/sunGlasses-09-03-01.jpg';
+import sunGlasses09_03_02 from '../assets/images/product/Sunglasses/Sunglasses-09/03/sunGlasses-09-03-02.jpg';
+import sunGlasses09_03_03 from '../assets/images/product/Sunglasses/Sunglasses-09/03/sunGlasses-09-03-03.jpg';
+import sunGlasses09_03_04 from '../assets/images/product/Sunglasses/Sunglasses-09/03/sunGlasses-09-03-04.jpg';
+import sunGlasses09_03_05 from '../assets/images/product/Sunglasses/Sunglasses-09/03/sunGlasses-09-03-05.jpg';
+import sunGlasses09_03_06 from '../assets/images/product/Sunglasses/Sunglasses-09/03/sunGlasses-09-03-06.jpg';
+import sunGlasses09_03_07 from '../assets/images/product/Sunglasses/Sunglasses-09/03/sunGlasses-09-03-07.jpg';
+import sunGlasses09_03_08 from '../assets/images/product/Sunglasses/Sunglasses-09/03/sunGlasses-09-03-08.jpg';
+
+import sunGlasses09_04_01 from '../assets/images/product/Sunglasses/Sunglasses-09/04/sunGlasses-09-04-01.jpg';
+import sunGlasses09_04_02 from '../assets/images/product/Sunglasses/Sunglasses-09/04/sunGlasses-09-04-02.jpg';
+import sunGlasses09_04_03 from '../assets/images/product/Sunglasses/Sunglasses-09/04/sunGlasses-09-04-03.jpg';
+import sunGlasses09_04_04 from '../assets/images/product/Sunglasses/Sunglasses-09/04/sunGlasses-09-04-04.jpg';
+import sunGlasses09_04_05 from '../assets/images/product/Sunglasses/Sunglasses-09/04/sunGlasses-09-04-05.jpg';
+import sunGlasses09_04_06 from '../assets/images/product/Sunglasses/Sunglasses-09/04/sunGlasses-09-04-06.jpg';
+import sunGlasses09_04_07 from '../assets/images/product/Sunglasses/Sunglasses-09/04/sunGlasses-09-04-07.jpg';
+import sunGlasses09_04_08 from '../assets/images/product/Sunglasses/Sunglasses-09/04/sunGlasses-09-04-08.jpg';
+
+import sunGlasses10_color_01 from '../assets/images/product/Sunglasses/Sunglasses-10/color/01.png';
+import sunGlasses10_color_02 from '../assets/images/product/Sunglasses/Sunglasses-10/color/02.png';
+import sunGlasses10_color_03 from '../assets/images/product/Sunglasses/Sunglasses-10/color/03.png';
+import sunGlasses10_color_04 from '../assets/images/product/Sunglasses/Sunglasses-10/color/04.png';
+import sunGlasses10_color_05 from '../assets/images/product/Sunglasses/Sunglasses-10/color/05.png';
+
+import sunGlasses10_01_01 from '../assets/images/product/Sunglasses/Sunglasses-10/01/sunGlasses-10-01-01.jpg';
+import sunGlasses10_01_02 from '../assets/images/product/Sunglasses/Sunglasses-10/01/sunGlasses-10-01-02.jpg';
+import sunGlasses10_01_03 from '../assets/images/product/Sunglasses/Sunglasses-10/01/sunGlasses-10-01-03.jpg';
+import sunGlasses10_01_04 from '../assets/images/product/Sunglasses/Sunglasses-10/01/sunGlasses-10-01-04.jpg';
+import sunGlasses10_01_05 from '../assets/images/product/Sunglasses/Sunglasses-10/01/sunGlasses-10-01-05.jpg';
+import sunGlasses10_01_06 from '../assets/images/product/Sunglasses/Sunglasses-10/01/sunGlasses-10-01-06.jpg';
+import sunGlasses10_01_07 from '../assets/images/product/Sunglasses/Sunglasses-10/01/sunGlasses-10-01-07.jpg';
+import sunGlasses10_01_08 from '../assets/images/product/Sunglasses/Sunglasses-10/01/sunGlasses-10-01-08.jpg';
+
+import sunGlasses10_02_01 from '../assets/images/product/Sunglasses/Sunglasses-10/02/sunGlasses-10-02-01.jpg';
+import sunGlasses10_02_02 from '../assets/images/product/Sunglasses/Sunglasses-10/02/sunGlasses-10-02-02.jpg';
+import sunGlasses10_02_03 from '../assets/images/product/Sunglasses/Sunglasses-10/02/sunGlasses-10-02-03.jpg';
+import sunGlasses10_02_04 from '../assets/images/product/Sunglasses/Sunglasses-10/02/sunGlasses-10-02-04.jpg';
+import sunGlasses10_02_05 from '../assets/images/product/Sunglasses/Sunglasses-10/02/sunGlasses-10-02-05.jpg';
+import sunGlasses10_02_06 from '../assets/images/product/Sunglasses/Sunglasses-10/02/sunGlasses-10-02-06.jpg';
+import sunGlasses10_02_07 from '../assets/images/product/Sunglasses/Sunglasses-10/02/sunGlasses-10-02-07.jpg';
+import sunGlasses10_02_08 from '../assets/images/product/Sunglasses/Sunglasses-10/02/sunGlasses-10-02-08.jpg';
+
+import sunGlasses10_03_01 from '../assets/images/product/Sunglasses/Sunglasses-10/03/sunGlasses-10-03-01.jpg';
+import sunGlasses10_03_02 from '../assets/images/product/Sunglasses/Sunglasses-10/03/sunGlasses-10-03-02.jpg';
+import sunGlasses10_03_03 from '../assets/images/product/Sunglasses/Sunglasses-10/03/sunGlasses-10-03-03.jpg';
+import sunGlasses10_03_04 from '../assets/images/product/Sunglasses/Sunglasses-10/03/sunGlasses-10-03-04.jpg';
+import sunGlasses10_03_05 from '../assets/images/product/Sunglasses/Sunglasses-10/03/sunGlasses-10-03-05.jpg';
+import sunGlasses10_03_06 from '../assets/images/product/Sunglasses/Sunglasses-10/03/sunGlasses-10-03-06.jpg';
+import sunGlasses10_03_07 from '../assets/images/product/Sunglasses/Sunglasses-10/03/sunGlasses-10-03-07.jpg';
+import sunGlasses10_03_08 from '../assets/images/product/Sunglasses/Sunglasses-10/03/sunGlasses-10-03-08.jpg';
+
+import sunGlasses10_04_01 from '../assets/images/product/Sunglasses/Sunglasses-10/04/sunGlasses-10-04-01.jpg';
+import sunGlasses10_04_02 from '../assets/images/product/Sunglasses/Sunglasses-10/04/sunGlasses-10-04-02.jpg';
+import sunGlasses10_04_03 from '../assets/images/product/Sunglasses/Sunglasses-10/04/sunGlasses-10-04-03.jpg';
+import sunGlasses10_04_04 from '../assets/images/product/Sunglasses/Sunglasses-10/04/sunGlasses-10-04-04.jpg';
+import sunGlasses10_04_05 from '../assets/images/product/Sunglasses/Sunglasses-10/04/sunGlasses-10-04-05.jpg';
+import sunGlasses10_04_06 from '../assets/images/product/Sunglasses/Sunglasses-10/04/sunGlasses-10-04-06.jpg';
+import sunGlasses10_04_07 from '../assets/images/product/Sunglasses/Sunglasses-10/04/sunGlasses-10-04-07.jpg';
+import sunGlasses10_04_08 from '../assets/images/product/Sunglasses/Sunglasses-10/04/sunGlasses-10-04-08.jpg';
+
+import sunGlasses10_05_01 from '../assets/images/product/Sunglasses/Sunglasses-10/05/sunGlasses-10-05-01.jpg';
+import sunGlasses10_05_02 from '../assets/images/product/Sunglasses/Sunglasses-10/05/sunGlasses-10-05-02.jpg';
+import sunGlasses10_05_03 from '../assets/images/product/Sunglasses/Sunglasses-10/05/sunGlasses-10-05-03.jpg';
+import sunGlasses10_05_04 from '../assets/images/product/Sunglasses/Sunglasses-10/05/sunGlasses-10-05-04.jpg';
+import sunGlasses10_05_05 from '../assets/images/product/Sunglasses/Sunglasses-10/05/sunGlasses-10-05-05.jpg';
+import sunGlasses10_05_06 from '../assets/images/product/Sunglasses/Sunglasses-10/05/sunGlasses-10-05-06.jpg';
+import sunGlasses10_05_07 from '../assets/images/product/Sunglasses/Sunglasses-10/05/sunGlasses-10-05-07.jpg';
+import sunGlasses10_05_08 from '../assets/images/product/Sunglasses/Sunglasses-10/05/sunGlasses-10-05-08.jpg';
+
+import sunGlasses11_color_01 from '../assets/images/product/Sunglasses/Sunglasses-11/color/01.png';
+import sunGlasses11_color_02 from '../assets/images/product/Sunglasses/Sunglasses-11/color/02.png';
+import sunGlasses11_color_03 from '../assets/images/product/Sunglasses/Sunglasses-11/color/03.png';
+import sunGlasses11_color_04 from '../assets/images/product/Sunglasses/Sunglasses-11/color/04.png';
+import sunGlasses11_01_01 from '../assets/images/product/Sunglasses/Sunglasses-11/01/sunGlasses-11-01-01.jpg';
+import sunGlasses11_01_02 from '../assets/images/product/Sunglasses/Sunglasses-11/01/sunGlasses-11-01-02.jpg';
+import sunGlasses11_01_03 from '../assets/images/product/Sunglasses/Sunglasses-11/01/sunGlasses-11-01-03.jpg';
+import sunGlasses11_01_04 from '../assets/images/product/Sunglasses/Sunglasses-11/01/sunGlasses-11-01-04.jpg';
+import sunGlasses11_01_05 from '../assets/images/product/Sunglasses/Sunglasses-11/01/sunGlasses-11-01-05.jpg';
+import sunGlasses11_01_06 from '../assets/images/product/Sunglasses/Sunglasses-11/01/sunGlasses-11-01-06.jpg';
+import sunGlasses11_01_07 from '../assets/images/product/Sunglasses/Sunglasses-11/01/sunGlasses-11-01-07.jpg';
+import sunGlasses11_01_08 from '../assets/images/product/Sunglasses/Sunglasses-11/01/sunGlasses-11-01-08.jpg';
+
+import sunGlasses11_02_01 from '../assets/images/product/Sunglasses/Sunglasses-11/02/sunGlasses-11-02-01.jpg';
+import sunGlasses11_02_02 from '../assets/images/product/Sunglasses/Sunglasses-11/02/sunGlasses-11-02-02.jpg';
+import sunGlasses11_02_03 from '../assets/images/product/Sunglasses/Sunglasses-11/02/sunGlasses-11-02-03.jpg';
+import sunGlasses11_02_04 from '../assets/images/product/Sunglasses/Sunglasses-11/02/sunGlasses-11-02-04.jpg';
+import sunGlasses11_02_05 from '../assets/images/product/Sunglasses/Sunglasses-11/02/sunGlasses-11-02-05.jpg';
+import sunGlasses11_02_06 from '../assets/images/product/Sunglasses/Sunglasses-11/02/sunGlasses-11-02-06.jpg';
+import sunGlasses11_02_07 from '../assets/images/product/Sunglasses/Sunglasses-11/02/sunGlasses-11-02-07.jpg';
+import sunGlasses11_02_08 from '../assets/images/product/Sunglasses/Sunglasses-11/02/sunGlasses-11-02-08.jpg';
+
+import sunGlasses11_03_01 from '../assets/images/product/Sunglasses/Sunglasses-11/03/sunGlasses-11-03-01.jpg';
+import sunGlasses11_03_02 from '../assets/images/product/Sunglasses/Sunglasses-11/03/sunGlasses-11-03-02.jpg';
+import sunGlasses11_03_03 from '../assets/images/product/Sunglasses/Sunglasses-11/03/sunGlasses-11-03-03.jpg';
+import sunGlasses11_03_04 from '../assets/images/product/Sunglasses/Sunglasses-11/03/sunGlasses-11-03-04.jpg';
+import sunGlasses11_03_05 from '../assets/images/product/Sunglasses/Sunglasses-11/03/sunGlasses-11-03-05.jpg';
+import sunGlasses11_03_06 from '../assets/images/product/Sunglasses/Sunglasses-11/03/sunGlasses-11-03-06.jpg';
+import sunGlasses11_03_07 from '../assets/images/product/Sunglasses/Sunglasses-11/03/sunGlasses-11-03-07.jpg';
+import sunGlasses11_03_08 from '../assets/images/product/Sunglasses/Sunglasses-11/03/sunGlasses-11-03-08.jpg';
+
+import sunGlasses11_04_01 from '../assets/images/product/Sunglasses/Sunglasses-11/04/sunGlasses-11-04-01.jpg';
+import sunGlasses11_04_02 from '../assets/images/product/Sunglasses/Sunglasses-11/04/sunGlasses-11-04-02.jpg';
+import sunGlasses11_04_03 from '../assets/images/product/Sunglasses/Sunglasses-11/04/sunGlasses-11-04-03.jpg';
+import sunGlasses11_04_04 from '../assets/images/product/Sunglasses/Sunglasses-11/04/sunGlasses-11-04-04.jpg';
+import sunGlasses11_04_05 from '../assets/images/product/Sunglasses/Sunglasses-11/04/sunGlasses-11-04-05.jpg';
+import sunGlasses11_04_06 from '../assets/images/product/Sunglasses/Sunglasses-11/04/sunGlasses-11-04-06.jpg';
+import sunGlasses11_04_07 from '../assets/images/product/Sunglasses/Sunglasses-11/04/sunGlasses-11-04-07.jpg';
+import sunGlasses11_04_08 from '../assets/images/product/Sunglasses/Sunglasses-11/04/sunGlasses-11-04-08.jpg';
 
 import caseImg from '../assets/images/product/Sunglasses/case.jpg';
 
@@ -266,9 +521,13 @@ import footerIconInstagram from '../assets/images/company/icon-instagram.png';
 import footerIconFaceBook from '../assets/images/company/icon-facebook.png';
 import footerIconDesignAward from '../assets/images/company/icon-designAward.png';
 
+import sunglassesCircle from "../assets/images/etc/sunglasses-circle.png"
+
+
 export {
-  logo, video, humanity_logo,
-  collection01,
+  logo, humanity_logo,
+  about_video, aboutBg01, aboutBg02, aboutBg03,
+  collection_video, collection01,
   sunGlasses01_color_01, sunGlasses01_color_02, sunGlasses01_color_03, sunGlasses01_color_04,
   glasses01, glasses02, glasses03, glasses04, glasses05, glasses06, glasses07, glasses08, glasses09, glasses10, glasses11, glasses12,
   sunGlasses01_01_01, sunGlasses01_01_02, sunGlasses01_01_03, sunGlasses01_01_04, sunGlasses01_01_05, sunGlasses01_01_06, sunGlasses01_01_07, sunGlasses01_01_08,
@@ -303,18 +562,44 @@ export {
   sunGlasses05_04_01, sunGlasses05_04_02, sunGlasses05_04_03, sunGlasses05_04_04, sunGlasses05_04_05, sunGlasses05_04_06, sunGlasses05_04_07, sunGlasses05_04_08,
   sunGlasses05_05_01, sunGlasses05_05_02, sunGlasses05_05_03, sunGlasses05_05_04, sunGlasses05_05_05, sunGlasses05_05_06, sunGlasses05_05_07, sunGlasses05_05_08,
 
-  sunGlasses06_01_01,
+  sunGlasses06_color_01, sunGlasses06_color_02, sunGlasses06_color_03, sunGlasses06_color_04, sunGlasses06_color_05,
+  sunGlasses06_01_01, sunGlasses06_01_02, sunGlasses06_01_03, sunGlasses06_01_04, sunGlasses06_01_05, sunGlasses06_01_06, sunGlasses06_01_07, sunGlasses06_01_08,
+  sunGlasses06_02_01, sunGlasses06_02_02, sunGlasses06_02_03, sunGlasses06_02_04, sunGlasses06_02_05, sunGlasses06_02_06, sunGlasses06_02_07, sunGlasses06_02_08,
+  sunGlasses06_03_01, sunGlasses06_03_02, sunGlasses06_03_03, sunGlasses06_03_04, sunGlasses06_03_05, sunGlasses06_03_06, sunGlasses06_03_07, sunGlasses06_03_08,
+  sunGlasses06_04_01, sunGlasses06_04_02, sunGlasses06_04_03, sunGlasses06_04_04, sunGlasses06_04_05, sunGlasses06_04_06, sunGlasses06_04_07, sunGlasses06_04_08,
+  sunGlasses06_05_01, sunGlasses06_05_02, sunGlasses06_05_03, sunGlasses06_05_04, sunGlasses06_05_05, sunGlasses06_05_06, sunGlasses06_05_07, sunGlasses06_05_08,
   
-  sunGlasses07_01_01,
+  sunGlasses07_color_01, sunGlasses07_color_02, sunGlasses07_color_03, sunGlasses07_color_04, 
+  sunGlasses07_01_01, sunGlasses07_01_02, sunGlasses07_01_03, sunGlasses07_01_04, sunGlasses07_01_05, sunGlasses07_01_06, sunGlasses07_01_07, sunGlasses07_01_08,
+  sunGlasses07_02_01, sunGlasses07_02_02, sunGlasses07_02_03, sunGlasses07_02_04, sunGlasses07_02_05, sunGlasses07_02_06, sunGlasses07_02_07, sunGlasses07_02_08,
+  sunGlasses07_03_01, sunGlasses07_03_02, sunGlasses07_03_03, sunGlasses07_03_04, sunGlasses07_03_05, sunGlasses07_03_06, sunGlasses07_03_07, sunGlasses07_03_08,
+  sunGlasses07_04_01, sunGlasses07_04_02, sunGlasses07_04_03, sunGlasses07_04_04, sunGlasses07_04_05, sunGlasses07_04_06, sunGlasses07_04_07, sunGlasses07_04_08,
   
-  sunGlasses08_01_01,
+  sunGlasses08_color_01, sunGlasses08_color_02, sunGlasses08_color_03, sunGlasses08_color_04,
+  sunGlasses08_01_01, sunGlasses08_01_02, sunGlasses08_01_03, sunGlasses08_01_04, sunGlasses08_01_05, sunGlasses08_01_06, sunGlasses08_01_07, sunGlasses08_01_08,
+  sunGlasses08_02_01, sunGlasses08_02_02, sunGlasses08_02_03, sunGlasses08_02_04, sunGlasses08_02_05, sunGlasses08_02_06, sunGlasses08_02_07, sunGlasses08_02_08,
+  sunGlasses08_03_01, sunGlasses08_03_02, sunGlasses08_03_03, sunGlasses08_03_04, sunGlasses08_03_05, sunGlasses08_03_06, sunGlasses08_03_07, sunGlasses08_03_08,
+  sunGlasses08_04_01, sunGlasses08_04_02, sunGlasses08_04_03, sunGlasses08_04_04, sunGlasses08_04_05, sunGlasses08_04_06, sunGlasses08_04_07, sunGlasses08_04_08,
+
+  sunGlasses09_color_01, sunGlasses09_color_02, sunGlasses09_color_03, sunGlasses09_color_04, sunGlasses09_01_01, sunGlasses09_01_02, sunGlasses09_01_03, sunGlasses09_01_04, sunGlasses09_01_05, sunGlasses09_01_06, sunGlasses09_01_07, sunGlasses09_01_08,
+  sunGlasses09_02_01, sunGlasses09_02_02, sunGlasses09_02_03, sunGlasses09_02_04, sunGlasses09_02_05, sunGlasses09_02_06, sunGlasses09_02_07, sunGlasses09_02_08,
+  sunGlasses09_03_01, sunGlasses09_03_02, sunGlasses09_03_03, sunGlasses09_03_04, sunGlasses09_03_05, sunGlasses09_03_06, sunGlasses09_03_07, sunGlasses09_03_08,
+  sunGlasses09_04_01, sunGlasses09_04_02, sunGlasses09_04_03, sunGlasses09_04_04, sunGlasses09_04_05, sunGlasses09_04_06, sunGlasses09_04_07, sunGlasses09_04_08,
   
-  sunGlasses09_01_01,
+  sunGlasses10_color_01, sunGlasses10_color_02, sunGlasses10_color_03, sunGlasses10_color_04, sunGlasses10_color_05, sunGlasses10_01_01, sunGlasses10_01_02, sunGlasses10_01_03, sunGlasses10_01_04, sunGlasses10_01_05, sunGlasses10_01_06, sunGlasses10_01_07, sunGlasses10_01_08,
+  sunGlasses10_02_01, sunGlasses10_02_02, sunGlasses10_02_03, sunGlasses10_02_04, sunGlasses10_02_05, sunGlasses10_02_06, sunGlasses10_02_07, sunGlasses10_02_08,
+  sunGlasses10_03_01, sunGlasses10_03_02, sunGlasses10_03_03, sunGlasses10_03_04, sunGlasses10_03_05, sunGlasses10_03_06, sunGlasses10_03_07, sunGlasses10_03_08,
+  sunGlasses10_04_01, sunGlasses10_04_02, sunGlasses10_04_03, sunGlasses10_04_04, sunGlasses10_04_05, sunGlasses10_04_06, sunGlasses10_04_07, sunGlasses10_04_08,
+  sunGlasses10_05_01, sunGlasses10_05_02, sunGlasses10_05_03, sunGlasses10_05_04, sunGlasses10_05_05, sunGlasses10_05_06, sunGlasses10_05_07, sunGlasses10_05_08,
   
-  sunGlasses10_01_01,
-  
-  sunGlasses11_01_01,
+  sunGlasses11_color_01, sunGlasses11_color_02, sunGlasses11_color_03, sunGlasses11_color_04,
+  sunGlasses11_01_01, sunGlasses11_01_02, sunGlasses11_01_03, sunGlasses11_01_04, sunGlasses11_01_05, sunGlasses11_01_06, sunGlasses11_01_07, sunGlasses11_01_08,
+  sunGlasses11_02_01, sunGlasses11_02_02, sunGlasses11_02_03, sunGlasses11_02_04, sunGlasses11_02_05, sunGlasses11_02_06, sunGlasses11_02_07, sunGlasses11_02_08,
+  sunGlasses11_03_01, sunGlasses11_03_02, sunGlasses11_03_03, sunGlasses11_03_04, sunGlasses11_03_05, sunGlasses11_03_06, sunGlasses11_03_07, sunGlasses11_03_08,
+  sunGlasses11_04_01, sunGlasses11_04_02, sunGlasses11_04_03, sunGlasses11_04_04, sunGlasses11_04_05, sunGlasses11_04_06, sunGlasses11_04_07, sunGlasses11_04_08,
   
   caseImg,
-  footerIconInstagram, footerIconFaceBook, footerIconDesignAward
+  
+  footerIconInstagram, footerIconFaceBook, footerIconDesignAward,
+  sunglassesCircle
 };

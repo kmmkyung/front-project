@@ -1,5 +1,5 @@
 import type { IProduct } from "../type";
-import { caseImg, sunGlasses01_01_01, sunGlasses01_01_02, sunGlasses01_01_03, sunGlasses01_01_04, sunGlasses01_01_05, sunGlasses01_01_06, sunGlasses01_01_07, sunGlasses01_02_01, sunGlasses01_02_02, sunGlasses01_02_03, sunGlasses01_02_04, sunGlasses01_02_05, sunGlasses01_02_06, sunGlasses01_02_07, sunGlasses01_03_01, sunGlasses01_03_02, sunGlasses01_03_03, sunGlasses01_03_04, sunGlasses01_03_05, sunGlasses01_03_06, sunGlasses01_03_07, sunGlasses01_04_01, sunGlasses01_04_02, sunGlasses01_04_03, sunGlasses01_04_04, sunGlasses01_04_05, sunGlasses01_04_06, sunGlasses01_04_07, sunGlasses01_color_01, sunGlasses01_color_02, sunGlasses01_color_03, sunGlasses01_color_04, sunGlasses02_01_01, sunGlasses02_01_02, sunGlasses02_01_03, sunGlasses02_01_04, sunGlasses02_01_05, sunGlasses02_01_06, sunGlasses02_01_07, sunGlasses02_01_08, sunGlasses02_02_01, sunGlasses02_02_02, sunGlasses02_02_03, sunGlasses02_02_04, sunGlasses02_02_05, sunGlasses02_02_06, sunGlasses02_02_07, sunGlasses02_02_08, sunGlasses02_03_01, sunGlasses02_03_02, sunGlasses02_03_03, sunGlasses02_03_04, sunGlasses02_03_05, sunGlasses02_03_06, sunGlasses02_03_07, sunGlasses02_03_08, sunGlasses02_04_01, sunGlasses02_04_02, sunGlasses02_04_03, sunGlasses02_04_04, sunGlasses02_04_05, sunGlasses02_04_06, sunGlasses02_04_07, sunGlasses02_04_08, sunGlasses02_05_01, sunGlasses02_05_02, sunGlasses02_05_03, sunGlasses02_05_04, sunGlasses02_05_05, sunGlasses02_05_06, sunGlasses02_05_07, sunGlasses02_05_08, sunGlasses02_color_01, sunGlasses02_color_02, sunGlasses02_color_03, sunGlasses02_color_04, sunGlasses02_color_05, sunGlasses03_01_01, sunGlasses03_01_02, sunGlasses03_01_03, sunGlasses03_01_04, sunGlasses03_01_05, sunGlasses03_01_06, sunGlasses03_01_07, sunGlasses03_01_08, sunGlasses03_02_01, sunGlasses03_02_02, sunGlasses03_02_03, sunGlasses03_02_04, sunGlasses03_02_05, sunGlasses03_02_06, sunGlasses03_02_07, sunGlasses03_02_08, sunGlasses03_03_01, sunGlasses03_03_02, sunGlasses03_03_03, sunGlasses03_03_04, sunGlasses03_03_05, sunGlasses03_03_06, sunGlasses03_03_07, sunGlasses03_03_08, sunGlasses03_04_01, sunGlasses03_04_02, sunGlasses03_04_03, sunGlasses03_04_04, sunGlasses03_04_05, sunGlasses03_04_06, sunGlasses03_04_07, sunGlasses03_04_08, sunGlasses03_color_01, sunGlasses03_color_02, sunGlasses03_color_03, sunGlasses03_color_04, sunGlasses04_01_01, sunGlasses04_01_02, sunGlasses04_01_03, sunGlasses04_01_04, sunGlasses04_01_05, sunGlasses04_01_06, sunGlasses04_01_07, sunGlasses04_01_08, sunGlasses04_02_01, sunGlasses04_02_02, sunGlasses04_02_03, sunGlasses04_02_04, sunGlasses04_02_05, sunGlasses04_02_06, sunGlasses04_02_07, sunGlasses04_02_08, sunGlasses04_03_01, sunGlasses04_03_02, sunGlasses04_03_03, sunGlasses04_03_04, sunGlasses04_03_05, sunGlasses04_03_06, sunGlasses04_03_07, sunGlasses04_03_08, sunGlasses04_04_01, sunGlasses04_04_02, sunGlasses04_04_03, sunGlasses04_04_04, sunGlasses04_04_05, sunGlasses04_04_06, sunGlasses04_04_07, sunGlasses04_04_08, sunGlasses04_05_01, sunGlasses04_05_02, sunGlasses04_05_03, sunGlasses04_05_04, sunGlasses04_05_05, sunGlasses04_05_06, sunGlasses04_05_07, sunGlasses04_05_08, sunGlasses04_color_01, sunGlasses04_color_02, sunGlasses04_color_03, sunGlasses04_color_04, sunGlasses04_color_05, sunGlasses05_01_01, sunGlasses05_01_02, sunGlasses05_01_03, sunGlasses05_01_04, sunGlasses05_01_05, sunGlasses05_01_06, sunGlasses05_01_07, sunGlasses05_01_08, sunGlasses05_02_01, sunGlasses05_02_02, sunGlasses05_02_03, sunGlasses05_02_04, sunGlasses05_02_05, sunGlasses05_02_06, sunGlasses05_02_07, sunGlasses05_02_08, sunGlasses05_03_01, sunGlasses05_03_02, sunGlasses05_03_03, sunGlasses05_03_04, sunGlasses05_03_05, sunGlasses05_03_06, sunGlasses05_03_07, sunGlasses05_03_08, sunGlasses05_04_01, sunGlasses05_04_02, sunGlasses05_04_03, sunGlasses05_04_04, sunGlasses05_04_05, sunGlasses05_04_06, sunGlasses05_04_07, sunGlasses05_04_08, sunGlasses05_05_01, sunGlasses05_05_02, sunGlasses05_05_03, sunGlasses05_05_04, sunGlasses05_05_05, sunGlasses05_05_06, sunGlasses05_05_07, sunGlasses05_05_08, sunGlasses05_color_01, sunGlasses05_color_02, sunGlasses05_color_03, sunGlasses05_color_04, sunGlasses05_color_05 } from "./imageImportData";
+import { caseImg, sunGlasses01_01_01, sunGlasses01_01_02, sunGlasses01_01_03, sunGlasses01_01_04, sunGlasses01_01_05, sunGlasses01_01_06, sunGlasses01_01_07, sunGlasses01_02_01, sunGlasses01_02_02, sunGlasses01_02_03, sunGlasses01_02_04, sunGlasses01_02_05, sunGlasses01_02_06, sunGlasses01_02_07, sunGlasses01_03_01, sunGlasses01_03_02, sunGlasses01_03_03, sunGlasses01_03_04, sunGlasses01_03_05, sunGlasses01_03_06, sunGlasses01_03_07, sunGlasses01_04_01, sunGlasses01_04_02, sunGlasses01_04_03, sunGlasses01_04_04, sunGlasses01_04_05, sunGlasses01_04_06, sunGlasses01_04_07, sunGlasses01_color_01, sunGlasses01_color_02, sunGlasses01_color_03, sunGlasses01_color_04, sunGlasses02_01_01, sunGlasses02_01_02, sunGlasses02_01_03, sunGlasses02_01_04, sunGlasses02_01_05, sunGlasses02_01_06, sunGlasses02_01_07, sunGlasses02_01_08, sunGlasses02_02_01, sunGlasses02_02_02, sunGlasses02_02_03, sunGlasses02_02_04, sunGlasses02_02_05, sunGlasses02_02_06, sunGlasses02_02_07, sunGlasses02_02_08, sunGlasses02_03_01, sunGlasses02_03_02, sunGlasses02_03_03, sunGlasses02_03_04, sunGlasses02_03_05, sunGlasses02_03_06, sunGlasses02_03_07, sunGlasses02_03_08, sunGlasses02_04_01, sunGlasses02_04_02, sunGlasses02_04_03, sunGlasses02_04_04, sunGlasses02_04_05, sunGlasses02_04_06, sunGlasses02_04_07, sunGlasses02_04_08, sunGlasses02_05_01, sunGlasses02_05_02, sunGlasses02_05_03, sunGlasses02_05_04, sunGlasses02_05_05, sunGlasses02_05_06, sunGlasses02_05_07, sunGlasses02_05_08, sunGlasses02_color_01, sunGlasses02_color_02, sunGlasses02_color_03, sunGlasses02_color_04, sunGlasses02_color_05, sunGlasses03_01_01, sunGlasses03_01_02, sunGlasses03_01_03, sunGlasses03_01_04, sunGlasses03_01_05, sunGlasses03_01_06, sunGlasses03_01_07, sunGlasses03_01_08, sunGlasses03_02_01, sunGlasses03_02_02, sunGlasses03_02_03, sunGlasses03_02_04, sunGlasses03_02_05, sunGlasses03_02_06, sunGlasses03_02_07, sunGlasses03_02_08, sunGlasses03_03_01, sunGlasses03_03_02, sunGlasses03_03_03, sunGlasses03_03_04, sunGlasses03_03_05, sunGlasses03_03_06, sunGlasses03_03_07, sunGlasses03_03_08, sunGlasses03_04_01, sunGlasses03_04_02, sunGlasses03_04_03, sunGlasses03_04_04, sunGlasses03_04_05, sunGlasses03_04_06, sunGlasses03_04_07, sunGlasses03_04_08, sunGlasses03_color_01, sunGlasses03_color_02, sunGlasses03_color_03, sunGlasses03_color_04, sunGlasses04_01_01, sunGlasses04_01_02, sunGlasses04_01_03, sunGlasses04_01_04, sunGlasses04_01_05, sunGlasses04_01_06, sunGlasses04_01_07, sunGlasses04_01_08, sunGlasses04_02_01, sunGlasses04_02_02, sunGlasses04_02_03, sunGlasses04_02_04, sunGlasses04_02_05, sunGlasses04_02_06, sunGlasses04_02_07, sunGlasses04_02_08, sunGlasses04_03_01, sunGlasses04_03_02, sunGlasses04_03_03, sunGlasses04_03_04, sunGlasses04_03_05, sunGlasses04_03_06, sunGlasses04_03_07, sunGlasses04_03_08, sunGlasses04_04_01, sunGlasses04_04_02, sunGlasses04_04_03, sunGlasses04_04_04, sunGlasses04_04_05, sunGlasses04_04_06, sunGlasses04_04_07, sunGlasses04_04_08, sunGlasses04_05_01, sunGlasses04_05_02, sunGlasses04_05_03, sunGlasses04_05_04, sunGlasses04_05_05, sunGlasses04_05_06, sunGlasses04_05_07, sunGlasses04_05_08, sunGlasses04_color_01, sunGlasses04_color_02, sunGlasses04_color_03, sunGlasses04_color_04, sunGlasses04_color_05, sunGlasses05_01_01, sunGlasses05_01_02, sunGlasses05_01_03, sunGlasses05_01_04, sunGlasses05_01_05, sunGlasses05_01_06, sunGlasses05_01_07, sunGlasses05_01_08, sunGlasses05_02_01, sunGlasses05_02_02, sunGlasses05_02_03, sunGlasses05_02_04, sunGlasses05_02_05, sunGlasses05_02_06, sunGlasses05_02_07, sunGlasses05_02_08, sunGlasses05_03_01, sunGlasses05_03_02, sunGlasses05_03_03, sunGlasses05_03_04, sunGlasses05_03_05, sunGlasses05_03_06, sunGlasses05_03_07, sunGlasses05_03_08, sunGlasses05_04_01, sunGlasses05_04_02, sunGlasses05_04_03, sunGlasses05_04_04, sunGlasses05_04_05, sunGlasses05_04_06, sunGlasses05_04_07, sunGlasses05_04_08, sunGlasses05_05_01, sunGlasses05_05_02, sunGlasses05_05_03, sunGlasses05_05_04, sunGlasses05_05_05, sunGlasses05_05_06, sunGlasses05_05_07, sunGlasses05_05_08, sunGlasses05_color_01, sunGlasses05_color_02, sunGlasses05_color_03, sunGlasses05_color_04, sunGlasses05_color_05, sunGlasses06_01_01, sunGlasses06_01_02, sunGlasses06_01_03, sunGlasses06_01_04, sunGlasses06_01_05, sunGlasses06_01_06, sunGlasses06_01_07, sunGlasses06_01_08, sunGlasses06_02_01, sunGlasses06_02_02, sunGlasses06_02_03, sunGlasses06_02_04, sunGlasses06_02_05, sunGlasses06_02_06, sunGlasses06_02_07, sunGlasses06_02_08, sunGlasses06_03_01, sunGlasses06_03_02, sunGlasses06_03_03, sunGlasses06_03_04, sunGlasses06_03_05, sunGlasses06_03_06, sunGlasses06_03_07, sunGlasses06_03_08, sunGlasses06_04_01, sunGlasses06_04_02, sunGlasses06_04_03, sunGlasses06_04_04, sunGlasses06_04_05, sunGlasses06_04_06, sunGlasses06_04_07, sunGlasses06_04_08, sunGlasses06_05_01, sunGlasses06_05_02, sunGlasses06_05_03, sunGlasses06_05_04, sunGlasses06_05_05, sunGlasses06_05_06, sunGlasses06_05_07, sunGlasses06_05_08, sunGlasses06_color_01, sunGlasses06_color_02, sunGlasses06_color_03, sunGlasses06_color_04, sunGlasses06_color_05, sunGlasses07_01_01, sunGlasses07_01_02, sunGlasses07_01_03, sunGlasses07_01_04, sunGlasses07_01_05, sunGlasses07_01_06, sunGlasses07_01_07, sunGlasses07_01_08, sunGlasses07_02_01, sunGlasses07_02_02, sunGlasses07_02_03, sunGlasses07_02_04, sunGlasses07_02_05, sunGlasses07_02_06, sunGlasses07_02_07, sunGlasses07_02_08, sunGlasses07_03_01, sunGlasses07_03_02, sunGlasses07_03_03, sunGlasses07_03_04, sunGlasses07_03_05, sunGlasses07_03_06, sunGlasses07_03_07, sunGlasses07_03_08, sunGlasses07_04_01, sunGlasses07_04_02, sunGlasses07_04_03, sunGlasses07_04_04, sunGlasses07_04_05, sunGlasses07_04_06, sunGlasses07_04_07, sunGlasses07_04_08, sunGlasses07_color_01, sunGlasses07_color_02, sunGlasses07_color_03, sunGlasses07_color_04, sunGlasses08_01_01, sunGlasses08_01_02, sunGlasses08_01_03, sunGlasses08_01_04, sunGlasses08_01_05, sunGlasses08_01_06, sunGlasses08_01_07, sunGlasses08_01_08, sunGlasses08_02_01, sunGlasses08_02_02, sunGlasses08_02_03, sunGlasses08_02_04, sunGlasses08_02_05, sunGlasses08_02_06, sunGlasses08_02_07, sunGlasses08_02_08, sunGlasses08_03_01, sunGlasses08_03_02, sunGlasses08_03_03, sunGlasses08_03_04,sunGlasses08_03_05,sunGlasses08_03_06,sunGlasses08_03_07,sunGlasses08_03_08,sunGlasses08_04_01,sunGlasses08_04_02, sunGlasses08_04_03, sunGlasses08_04_04, sunGlasses08_04_05, sunGlasses08_04_06, sunGlasses08_04_07, sunGlasses08_04_08, sunGlasses08_color_01, sunGlasses08_color_02, sunGlasses08_color_03, sunGlasses08_color_04, sunGlasses09_01_01, sunGlasses09_01_02, sunGlasses09_01_03, sunGlasses09_01_04, sunGlasses09_01_05, sunGlasses09_01_06, sunGlasses09_01_07, sunGlasses09_01_08, sunGlasses09_02_01, sunGlasses09_02_02, sunGlasses09_02_03, sunGlasses09_02_04, sunGlasses09_02_05, sunGlasses09_02_06, sunGlasses09_02_07, sunGlasses09_02_08, sunGlasses09_03_01, sunGlasses09_03_02, sunGlasses09_03_03, sunGlasses09_03_04, sunGlasses09_03_05, sunGlasses09_03_06, sunGlasses09_03_07, sunGlasses09_03_08, sunGlasses09_04_01, sunGlasses09_04_02, sunGlasses09_04_03, sunGlasses09_04_04, sunGlasses09_04_05, sunGlasses09_04_06, sunGlasses09_04_07, sunGlasses09_04_08, sunGlasses09_color_01, sunGlasses09_color_02, sunGlasses09_color_03, sunGlasses09_color_04, sunGlasses10_01_01, sunGlasses10_01_02, sunGlasses10_01_03, sunGlasses10_01_04, sunGlasses10_01_05, sunGlasses10_01_06, sunGlasses10_01_07, sunGlasses10_01_08, sunGlasses10_02_01, sunGlasses10_02_02, sunGlasses10_02_03, sunGlasses10_02_04, sunGlasses10_02_05, sunGlasses10_02_06, sunGlasses10_02_07, sunGlasses10_02_08, sunGlasses10_03_01, sunGlasses10_03_02, sunGlasses10_03_03, sunGlasses10_03_04, sunGlasses10_03_05, sunGlasses10_03_06, sunGlasses10_03_07, sunGlasses10_03_08, sunGlasses10_04_01, sunGlasses10_04_02, sunGlasses10_04_03, sunGlasses10_04_04, sunGlasses10_04_05, sunGlasses10_04_06, sunGlasses10_04_07, sunGlasses10_04_08, sunGlasses10_05_01, sunGlasses10_05_02, sunGlasses10_05_03, sunGlasses10_05_04, sunGlasses10_05_05, sunGlasses10_05_06, sunGlasses10_05_07, sunGlasses10_05_08, sunGlasses10_color_01, sunGlasses10_color_02, sunGlasses10_color_03, sunGlasses10_color_04, sunGlasses10_color_05, sunGlasses11_01_01, sunGlasses11_01_02, sunGlasses11_01_03, sunGlasses11_01_04, sunGlasses11_01_05, sunGlasses11_01_06, sunGlasses11_01_07, sunGlasses11_01_08, sunGlasses11_02_01, sunGlasses11_02_02, sunGlasses11_02_03, sunGlasses11_02_04, sunGlasses11_02_05, sunGlasses11_02_06, sunGlasses11_02_07, sunGlasses11_02_08, sunGlasses11_03_01, sunGlasses11_03_02, sunGlasses11_03_03, sunGlasses11_03_04, sunGlasses11_03_05, sunGlasses11_03_06, sunGlasses11_03_07, sunGlasses11_03_08, sunGlasses11_04_01, sunGlasses11_04_02, sunGlasses11_04_03, sunGlasses11_04_04, sunGlasses11_04_05, sunGlasses11_04_06, sunGlasses11_04_07, sunGlasses11_04_08, sunGlasses11_color_01, sunGlasses11_color_02, sunGlasses11_color_03, sunGlasses11_color_04 } from "./imageImportData";
 
 export const sunGlassesData:IProduct[] = [
   // sunGlasses 1
@@ -91,6 +91,7 @@ export const sunGlassesData:IProduct[] = [
     gallery: [sunGlasses01_04_01, sunGlasses01_04_02, sunGlasses01_04_03, sunGlasses01_04_04, sunGlasses01_04_05, sunGlasses01_04_06, sunGlasses01_04_07, caseImg],
     mainProduct: false
   },
+
   // sunGlasses 2 5~
   {
     id: 5,
@@ -207,6 +208,7 @@ export const sunGlassesData:IProduct[] = [
     gallery: [sunGlasses02_05_01, sunGlasses02_05_02, sunGlasses02_05_03, sunGlasses02_05_04, sunGlasses02_05_05, sunGlasses02_05_06, sunGlasses02_05_07, sunGlasses02_05_08, caseImg],
     mainProduct: false
   },
+
   // sunGlasses 3 10~
   {
     id: 10,
@@ -296,6 +298,7 @@ export const sunGlassesData:IProduct[] = [
     gallery: [ sunGlasses03_04_01, sunGlasses03_04_02, sunGlasses03_04_03, sunGlasses03_04_04, sunGlasses03_04_05, sunGlasses03_04_06, sunGlasses03_04_07, sunGlasses03_04_08 ,caseImg],
     mainProduct: false
   },
+
   // sunGlasses 4 14~
   {
     id: 14,
@@ -412,6 +415,7 @@ export const sunGlassesData:IProduct[] = [
     gallery: [ sunGlasses04_05_01, sunGlasses04_05_02, sunGlasses04_05_03, sunGlasses04_05_04, sunGlasses04_05_05, sunGlasses04_05_06, sunGlasses04_05_07, sunGlasses04_05_08,caseImg],
     mainProduct: false
   },
+
   // sunGlasses 5 19~
   {
     id: 19,
@@ -528,141 +532,600 @@ export const sunGlassesData:IProduct[] = [
     gallery: [ sunGlasses05_05_01, sunGlasses05_05_02, sunGlasses05_05_03, sunGlasses05_05_04, sunGlasses05_05_05, sunGlasses05_05_06, sunGlasses05_05_07, sunGlasses05_05_08, caseImg],
     mainProduct: false
   },
-  // sunGlasses 6 -24~
-  // {
-  //   id: 6,
-  //   name: "HM6 CMBK",
-  //   img: `${imageData.product.sunGlasses[5]}`,
-  //   price: 335000,
-  //   description:"메탈의 구조적인 디테일이 돋보이는 투브릿지 티타늄 선글라스.\n비정형적인 메탈 구조로 템플 디자인을 표현함으로써 제품의 입체감이 돋보이게 디자인 되었습니다.\n탑 브릿지의 자연스로운 이중 메탈 구조로 조형적인 입체감을 부여하여 유니크한 개성을 더합니다.",
-  //   colors: { frame: "반무광 블랙", lens: "블루 렌즈 (자외선 차단 99.9%)" },
-  //   materials: { front: "티타늄", temple: "티타늄 / 아세테이트" },
-  //   variants: [
-  //     { code: "CWG", name: "화이트골드" },
-  //     { code: "CMG", name: "반무광 골드" },
-  //     { code: "CMBK", name: "반무광 블랙" },
-  //     { code: "C1WG", name: "화이트골드" },
-  //     { code: "C1PG", name: "핑크골드" }
-  //   ],
-  //   size: {
-  //     frame: ["A - 전면길이 149 mm", "B - 코브릿지 20 mm"],
-  //     lens:  ["C - 가로길이 56 mm",  "D - 세로길이 40 mm"],
-  //     leg:   ["E - 다리길이 150 mm"],
-  //   },
-  //   thumbnail: sunGlasses01_01,
-  //   gallery: [ caseImg]
-  // },
-  // {
-  //   id: 7,
-  //   name: "HM7 CMPG",
-  //   img: `${imageData.product.sunGlasses[6]}`,
-  //   price: 275000,
-  //   description:"덧대어지는 공예품의 비정형적 형상을 프로젝트 프로덕트만의 모던함으로 풀어낸 티타늄 선글라스.\n브릿지와 템플에 이중으로 덧댄 메탈 디테일이 조형적 입체감을 부여하여 추상적인 이미지를 볼륨있는 형태로 자연스레 담아냈습니다.",
-  //   colors: { frame: "무광 핑크골드", lens: "브라운 렌즈 (자외선 차단 99.9%)" },
-  //   materials: { front: "티타늄", temple: "티타늄 / 아세테이트" },
-  //   variants: [
-  //     { code: "CMG", name: "무광 골드" },
-  //     { code: "CMWG", name: "무광 화이트골드" },
-  //     { code: "CMPG", name: "무광 핑크골드" },
-  //     { code: "CMBK", name: "무광 블랙" }
-  //   ],
-  //   size: {
-  //     frame: ["A - 전면길이 145 mm", "B - 코브릿지 21 mm"],
-  //     lens:  ["C - 가로길이 54 mm",  "D - 세로길이 44 mm"],
-  //     leg:   ["E - 다리길이 150 mm"],
-  //   },
-  //   thumbnail: sunGlasses01_01,
-  //   gallery: [ caseImg]
-  // },
-  // {
-  //   id: 8,
-  //   name: "HM8 C1MG",
-  //   img: `${imageData.product.sunGlasses[7]}`,
-  //   price: 285000,
-  //   description:"덧대어지는 공예품의 비정형적 형상을 프로젝트 프로덕트만의 모던함으로 풀어낸 티타늄 선글라스.\n브릿지와 템플에 이중으로 덧댄 메탈 디테일이 조형적 입체감을 부여하여 추상적인 이미지를 볼륨있는 형태로 자연스레 담아냈습니다.",
-  //   colors: { frame: "블랙 / 반무광 골드", lens: "그린 렌즈 (자외선 차단 99.9%)" },
-  //   materials: { front: "아세테이트 / 티타늄", temple: "티타늄 / 아세테이트" },
-  //   variants: [
-  //     { code: "C1WG", name: "블랙 / 화이트골드" },
-  //     { code: "C1PG", name: "블랙 / 핑크골드" },
-  //     { code: "C1MG", name: "블랙 / 무광 골드" },
-  //     { code: "C1MBK", name: "블랙 / 무광 블랙" }
-  //   ],
-  //   size: {
-  //     frame: ["A - 전면길이 149 mm", "B - 코브릿지 23 mm"],
-  //     lens:  ["C - 가로길이 53 mm",  "D - 세로길이 42 mm"],
-  //     leg:   ["E - 다리길이 150 mm"],
-  //   },
-  //   thumbnail: sunGlasses01_01,
-  //   gallery: [ caseImg]
-  // },
-  // {
-  //   id: 9,
-  //   name: "HM9 C1MBK",
-  //   img: `${imageData.product.sunGlasses[8]}`,
-  //   price: 285000,
-  //   description:"덧대어지는 공예품의 비정형적 형상을 프로젝트 프로덕트만의 모던함으로 풀어낸 티타늄 선글라스.\n브릿지와 템플에 이중으로 덧댄 메탈 디테일이 조형적 입체감을 부여하여 추상적인 이미지를 볼륨있는 형태로 자연스레 담아냈습니다.",
-  //   colors: { frame: "블랙 / 반무광 블랙", lens: "블랙 렌즈 (자외선 차단 99.9%)" },
-  //   materials: { front: "아세테이트 / 티타늄", temple: "티타늄 / 아세테이트" },
-  //   variants: [
-  //     { code: "C1WG", name: "블랙 / 화이트골드" },
-  //     { code: "C1PG", name: "블랙 / 핑크골드" },
-  //     { code: "C1MG", name: "블랙 / 무광 골드" },
-  //     { code: "C1MBK", name: "블랙 / 반무광 블랙" }
-  //   ],
-  //   size: {
-  //     frame: ["A - 전면길이 149 mm", "B - 코브릿지 24 mm"],
-  //     lens:  ["C - 가로길이 53 mm",  "D - 세로길이 42 mm"],
-  //     leg:   ["E - 다리길이 150 mm"],
-  //   },
-  //   thumbnail: sunGlasses01_01,
-  //   gallery: [ caseImg]
-  // },
-  // {
-  //   id: 10,
-  //   name: "HM10 C1",
-  //   img: `${imageData.product.sunGlasses[9]}`,
-  //   price: 275000,
-  //   description:"간결한 실루엣의 사각 아세테이트 선글라스.\n군더더기 없이 뻗어나가는 프레임은 모던한 분위기를 연출하며, 프레임과 템플의 정교하게 깎아낸 엣지와 메탈 심볼로 세련된 디테일을 더했습니다.",
-  //   colors: { frame: "블랙", lens: "블랙 렌즈 (자외선 차단 99.9%)" },
-  //   materials: { overall: "아세테이트" },
-  //   variants: [
-  //     { code: "C1", name: "블랙" },
-  //     { code: "C3", name: "톨토이즈" },
-  //     { code: "C06", name: "라이트 블루" },
-  //     { code: "C1FL", name: "블랙" },
-  //     { code: "C1FL(Purple Tint)", name: "블랙" }
-  //   ],
-  //   size: {
-  //     frame: ["A - 전면길이 149 mm", "B - 코브릿지 22 mm"],
-  //     lens:  ["C - 가로길이 51 mm",  "D - 세로길이 40 mm"],
-  //     leg:   ["E - 다리길이 150 mm"],
-  //   },
-  //   thumbnail: sunGlasses01_01,
-  //   gallery: [ caseImg]
-  // },
-  // {
-  //   id: 11,
-  //   name: "HM11 CG",
-  //   img: `${imageData.product.sunGlasses[10]}`,
-  //   price: 335000,
-  //   description:"비정형적인 메탈 볼륨감을 사용하여 PROJECT12 테마인 인간다움(Humanity)을 표현한 오벌 티타늄 안경.\n볼륨감이 돋보이는 브릿지와 엔드피스-템플의 디테일은 메탈이 덧붙이는 느낌을 주어 독특한 개성을 더하였습니다.",
-  //   colors: { frame: "골드", lens: "블루 렌즈 (자외선 차단 99.9%)" },
-  //   materials: { front: "티타늄", temple: "티타늄 / 아세테이트" },
-  //   variants: [
-  //     { code: "CG", name: "골드" },
-  //     { code: "CWG", name: "화이트골드" },
-  //     { code: "CMBK", name: "무광 블랙" },
-  //     { code: "C1PG", name: "핑크골드" }
-  //   ],
-  //   size: {
-  //     frame: ["A - 전면길이 145 mm", "B - 코브릿지 20 mm"],
-  //     lens:  ["C - 가로길이 52 mm",  "D - 세로길이 38 mm"],
-  //     leg:   ["E - 다리길이 150 mm"],
-  //   },
-  //   thumbnail: sunGlasses01_01,
-  //   gallery: [ caseImg]
-  // }
+
+  // sunGlasses 6 24~
+  {
+    id: 24,
+    name: "HM6 CWG",
+    img: sunGlasses06_01_01,
+    price: 335000,
+    description:"메탈의 구조적인 디테일이 돋보이는 투브릿지 티타늄 선글라스.\n비정형적인 메탈 구조로 템플 디자인을 표현함으로써 제품의 입체감이 돋보이게 디자인 되었습니다.\n탑 브릿지의 자연스로운 이중 메탈 구조로 조형적인 입체감을 부여하여 유니크한 개성을 더합니다.",
+    colors: { frame: "화이트 골드", lens: "블랙 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "HM6 CWG", name: "화이트 골드" ,color: sunGlasses06_color_01, thumbnail: sunGlasses06_01_02, id: 24 },
+      { code: "HM6 CMG", name: "반무광 골드" ,color: sunGlasses06_color_02, thumbnail: sunGlasses06_02_02, id: 25 },
+      { code: "HM6 CMBK", name: "반무광 블랙" ,color: sunGlasses06_color_03, thumbnail: sunGlasses06_03_02, id: 26 },
+      { code: "HM6 C1WG", name: "화이트 골드" ,color: sunGlasses06_color_04, thumbnail: sunGlasses06_04_02, id: 27 },
+      { code: "HM6 C1PG", name: "핑크 골드" ,color: sunGlasses06_color_05, thumbnail: sunGlasses06_05_02, id: 28 }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 20 mm"],
+      lens:  ["C - 가로길이 56 mm",  "D - 세로길이 40 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses06_01_01, sunGlasses06_01_02, sunGlasses06_01_03, sunGlasses06_01_04, sunGlasses06_01_05, sunGlasses06_01_06, sunGlasses06_01_07, sunGlasses06_01_08, caseImg ],
+    mainProduct: false
+  },
+  {
+    id: 25,
+    name: "HM6 CMG",
+    img: sunGlasses06_02_01,
+    price: 335000,
+    description:"메탈의 구조적인 디테일이 돋보이는 투브릿지 티타늄 선글라스.\n비정형적인 메탈 구조로 템플 디자인을 표현함으로써 제품의 입체감이 돋보이게 디자인 되었습니다.\n탑 브릿지의 자연스로운 이중 메탈 구조로 조형적인 입체감을 부여하여 유니크한 개성을 더합니다.",
+    colors: { frame: "반무광 골드", lens: "브라운 틴트 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "HM6 CWG", name: "화이트 골드" ,color: sunGlasses06_color_01, thumbnail: sunGlasses06_01_02, id: 24 },
+      { code: "HM6 CMG", name: "반무광 골드" ,color: sunGlasses06_color_02, thumbnail: sunGlasses06_02_02, id: 25 },
+      { code: "HM6 CMBK", name: "반무광 블랙" ,color: sunGlasses06_color_03, thumbnail: sunGlasses06_03_02, id: 26 },
+      { code: "HM6 C1WG", name: "화이트 골드" ,color: sunGlasses06_color_04, thumbnail: sunGlasses06_04_02, id: 27 },
+      { code: "HM6 C1PG", name: "핑크 골드" ,color: sunGlasses06_color_05, thumbnail: sunGlasses06_05_02, id: 28 }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 20 mm"],
+      lens:  ["C - 가로길이 56 mm",  "D - 세로길이 40 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses06_02_01, sunGlasses06_02_02, sunGlasses06_02_03, sunGlasses06_02_04, sunGlasses06_02_05, sunGlasses06_02_06, sunGlasses06_02_07, sunGlasses06_02_08, caseImg ],
+    mainProduct: false
+  },
+  {
+    id: 26,
+    name: "HM6 CMBK",
+    img: sunGlasses06_03_01,
+    price: 335000,
+    description:"메탈의 구조적인 디테일이 돋보이는 투브릿지 티타늄 선글라스.\n비정형적인 메탈 구조로 템플 디자인을 표현함으로써 제품의 입체감이 돋보이게 디자인 되었습니다.\n탑 브릿지의 자연스로운 이중 메탈 구조로 조형적인 입체감을 부여하여 유니크한 개성을 더합니다.",
+    colors: { frame: "반무광 블랙", lens: "블루 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "CWG", name: "화이트 골드" ,color: sunGlasses06_color_01, thumbnail: sunGlasses06_01_02, id: 24 },
+      { code: "CMG", name: "반무광 골드" ,color: sunGlasses06_color_02, thumbnail: sunGlasses06_02_02, id: 25 },
+      { code: "CMBK", name: "반무광 블랙" ,color: sunGlasses06_color_03, thumbnail: sunGlasses06_03_02, id: 26 },
+      { code: "C1WG", name: "화이트 골드" ,color: sunGlasses06_color_04, thumbnail: sunGlasses06_04_02, id: 27 },
+      { code: "C1PG", name: "핑크 골드" ,color: sunGlasses06_color_05, thumbnail: sunGlasses06_05_02, id: 28 }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 20 mm"],
+      lens:  ["C - 가로길이 56 mm",  "D - 세로길이 40 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses06_03_01, sunGlasses06_03_02, sunGlasses06_03_03, sunGlasses06_03_04, sunGlasses06_03_05, sunGlasses06_03_06, sunGlasses06_03_07, sunGlasses06_03_08 ,caseImg ],
+    mainProduct: true
+  },
+  {
+    id: 27,
+    name: "HM6 C1WG",
+    img: sunGlasses06_04_01,
+    price: 335000,
+    description:"메탈의 구조적인 디테일이 돋보이는 투브릿지 티타늄 선글라스.\n비정형적인 메탈 구조로 템플 디자인을 표현함으로써 제품의 입체감이 돋보이게 디자인 되었습니다.\n탑 브릿지의 자연스로운 이중 메탈 구조로 조형적인 입체감을 부여하여 유니크한 개성을 더합니다.",
+    colors: { frame: "화이트 블랙", lens: "그린 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "HM6 CWG", name: "화이트 골드" ,color: sunGlasses06_color_01, thumbnail: sunGlasses06_01_02, id: 24 },
+      { code: "HM6 CMG", name: "반무광 골드" ,color: sunGlasses06_color_02, thumbnail: sunGlasses06_02_02, id: 25 },
+      { code: "HM6 CMBK", name: "반무광 블랙" ,color: sunGlasses06_color_03, thumbnail: sunGlasses06_03_02, id: 26 },
+      { code: "HM6 C1WG", name: "화이트 골드" ,color: sunGlasses06_color_04, thumbnail: sunGlasses06_04_02, id: 27 },
+      { code: "HM6 C1PG", name: "핑크 골드" ,color: sunGlasses06_color_05, thumbnail: sunGlasses06_05_02, id: 28 }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 20 mm"],
+      lens:  ["C - 가로길이 56 mm",  "D - 세로길이 40 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses06_04_01, sunGlasses06_04_02, sunGlasses06_04_03, sunGlasses06_04_04, sunGlasses06_04_05, sunGlasses06_04_06, sunGlasses06_04_07, sunGlasses06_04_08 ,caseImg ],
+    mainProduct: false
+  },
+  {
+    id: 28,
+    name: "HM6 C1PG",
+    img: sunGlasses06_05_01,
+    price: 335000,
+    description:"메탈의 구조적인 디테일이 돋보이는 투브릿지 티타늄 선글라스.\n비정형적인 메탈 구조로 템플 디자인을 표현함으로써 제품의 입체감이 돋보이게 디자인 되었습니다.\n탑 브릿지의 자연스로운 이중 메탈 구조로 조형적인 입체감을 부여하여 유니크한 개성을 더합니다.",
+    colors: { frame: "핑크 골드", lens: "브라운 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "HM6 CWG", name: "화이트 골드" ,color: sunGlasses06_color_01, thumbnail: sunGlasses06_01_02, id: 24 },
+      { code: "HM6 CMG", name: "반무광 골드" ,color: sunGlasses06_color_02, thumbnail: sunGlasses06_02_02, id: 25 },
+      { code: "HM6 CMBK", name: "반무광 블랙" ,color: sunGlasses06_color_03, thumbnail: sunGlasses06_03_02, id: 26 },
+      { code: "HM6 C1WG", name: "화이트 골드" ,color: sunGlasses06_color_04, thumbnail: sunGlasses06_04_02, id: 27 },
+      { code: "HM6 C1PG", name: "핑크 골드" ,color: sunGlasses06_color_05, thumbnail: sunGlasses06_05_02, id: 28 }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 20 mm"],
+      lens:  ["C - 가로길이 56 mm",  "D - 세로길이 40 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses06_05_01, sunGlasses06_05_02, sunGlasses06_05_03, sunGlasses06_05_04, sunGlasses06_05_05, sunGlasses06_05_06, sunGlasses06_05_07, sunGlasses06_05_08 ,caseImg ],
+    mainProduct: false
+  },
+
+  // sunGlasses 7 29~
+  {
+    id: 29,
+    name: "HM7 CMG",
+    img: sunGlasses07_01_01,
+    price: 275000,
+    description:"덧대어지는 공예품의 비정형적 형상을 프로젝트 프로덕트만의 모던함으로 풀어낸 티타늄 선글라스.\n브릿지와 템플에 이중으로 덧댄 메탈 디테일이 조형적 입체감을 부여하여 추상적인 이미지를 볼륨있는 형태로 자연스레 담아냈습니다.",
+    colors: { frame: "반무광 골드", lens: "그린 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "HM7 CMG", name: "반무광 골드", color: sunGlasses07_color_01, thumbnail: sunGlasses07_01_02, id: 29 },
+      { code: "HM7 CMWG", name: "반무광 화이트 골드", color: sunGlasses07_color_02, thumbnail: sunGlasses07_02_02, id: 30 },
+      { code: "HM7 CMPG", name: "반무광 핑크 골드", color: sunGlasses07_color_03, thumbnail: sunGlasses07_03_02, id: 31 },
+      { code: "HM7 CMBK", name: "반무광 블랙", color: sunGlasses07_color_04, thumbnail: sunGlasses07_04_02, id: 32 }
+    ],
+    size: {
+      frame: ["A - 전면길이 145 mm", "B - 코브릿지 21 mm"],
+      lens:  ["C - 가로길이 54 mm",  "D - 세로길이 44 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses07_01_01, sunGlasses07_01_02 ,sunGlasses07_01_03, sunGlasses07_01_04, sunGlasses07_01_05, sunGlasses07_01_06, sunGlasses07_01_07, sunGlasses07_01_08 ,caseImg ],
+    mainProduct: false
+  },
+  {
+    id: 30,
+    name: "HM7 CMWG",
+    img: sunGlasses07_02_01,
+    price: 275000,
+    description:"덧대어지는 공예품의 비정형적 형상을 프로젝트 프로덕트만의 모던함으로 풀어낸 티타늄 선글라스.\n브릿지와 템플에 이중으로 덧댄 메탈 디테일이 조형적 입체감을 부여하여 추상적인 이미지를 볼륨있는 형태로 자연스레 담아냈습니다.",
+    colors: { frame: "반무광 화이트 골드", lens: "블랙 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "HM7 CMG", name: "반무광 골드", color: sunGlasses07_color_01, thumbnail: sunGlasses07_01_02, id: 29 },
+      { code: "HM7 CMWG", name: "반무광 화이트 골드", color: sunGlasses07_color_02, thumbnail: sunGlasses07_02_02, id: 30 },
+      { code: "HM7 CMPG", name: "반무광 핑크 골드", color: sunGlasses07_color_03, thumbnail: sunGlasses07_03_02, id: 31 },
+      { code: "HM7 CMBK", name: "반무광 블랙", color: sunGlasses07_color_04, thumbnail: sunGlasses07_04_02, id: 32 }
+    ],
+    size: {
+      frame: ["A - 전면길이 145 mm", "B - 코브릿지 21 mm"],
+      lens:  ["C - 가로길이 54 mm",  "D - 세로길이 44 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses07_02_01, sunGlasses07_02_02, sunGlasses07_02_03, sunGlasses07_02_04, sunGlasses07_02_05, sunGlasses07_02_06, sunGlasses07_02_07, sunGlasses07_02_08, caseImg ],
+    mainProduct: false
+  },
+  {
+    id: 31,
+    name: "HM7 CMPG",
+    img: sunGlasses07_03_01,
+    price: 275000,
+    description:"덧대어지는 공예품의 비정형적 형상을 프로젝트 프로덕트만의 모던함으로 풀어낸 티타늄 선글라스.\n브릿지와 템플에 이중으로 덧댄 메탈 디테일이 조형적 입체감을 부여하여 추상적인 이미지를 볼륨있는 형태로 자연스레 담아냈습니다.",
+    colors: { frame: "반무광 핑크 골드", lens: "브라운 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "HM7 CMG", name: "반무광 골드", color: sunGlasses07_color_01, thumbnail: sunGlasses07_01_02, id: 29 },
+      { code: "HM7 CMWG", name: "반무광 화이트 골드", color: sunGlasses07_color_02, thumbnail: sunGlasses07_02_02, id: 30 },
+      { code: "HM7 CMPG", name: "반무광 핑크 골드", color: sunGlasses07_color_03, thumbnail: sunGlasses07_03_02, id: 31 },
+      { code: "HM7 CMBK", name: "반무광 블랙", color: sunGlasses07_color_04, thumbnail: sunGlasses07_04_02, id: 32 }
+    ],
+    size: {
+      frame: ["A - 전면길이 145 mm", "B - 코브릿지 21 mm"],
+      lens:  ["C - 가로길이 54 mm",  "D - 세로길이 44 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses07_03_01, sunGlasses07_03_02, sunGlasses07_03_03, sunGlasses07_03_04, sunGlasses07_03_05, sunGlasses07_03_06, sunGlasses07_03_07, sunGlasses07_03_08, caseImg ],
+    mainProduct: true
+  },
+  {
+    id: 32,
+    name: "HM7 CMBK",
+    img: sunGlasses07_04_01,
+    price: 275000,
+    description:"덧대어지는 공예품의 비정형적 형상을 프로젝트 프로덕트만의 모던함으로 풀어낸 티타늄 선글라스.\n브릿지와 템플에 이중으로 덧댄 메탈 디테일이 조형적 입체감을 부여하여 추상적인 이미지를 볼륨있는 형태로 자연스레 담아냈습니다.",
+    colors: { frame: "반무광 블랙", lens: "블랙 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "HM7 CMG", name: "반무광 골드", color: sunGlasses07_color_01, thumbnail: sunGlasses07_01_02, id: 29 },
+      { code: "HM7 CMWG", name: "반무광 화이트 골드", color: sunGlasses07_color_02, thumbnail: sunGlasses07_02_02, id: 30 },
+      { code: "HM7 CMPG", name: "반무광 핑크 골드", color: sunGlasses07_color_03, thumbnail: sunGlasses07_03_02, id: 31 },
+      { code: "HM7 CMBK", name: "반무광 블랙", color: sunGlasses07_color_04, thumbnail: sunGlasses07_04_02, id: 32 }
+    ],
+    size: {
+      frame: ["A - 전면길이 145 mm", "B - 코브릿지 21 mm"],
+      lens:  ["C - 가로길이 54 mm",  "D - 세로길이 44 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses07_04_01, sunGlasses07_04_02, sunGlasses07_04_03, sunGlasses07_04_04, sunGlasses07_04_05, sunGlasses07_04_06, sunGlasses07_04_07, sunGlasses07_04_08, caseImg ],
+    mainProduct: false
+  },
+
+  // sunGlasses 8 33~
+  {
+    id: 33,
+    name: "HM8 C1WG",
+    img: sunGlasses08_01_01,
+    price: 285000,
+    description:"덧대어지는 공예품의 비정형적 형상을 프로젝트 프로덕트만의 모던함으로 풀어낸 티타늄 선글라스.\n브릿지와 템플에 이중으로 덧댄 메탈 디테일이 조형적 입체감을 부여하여 추상적인 이미지를 볼륨있는 형태로 자연스레 담아냈습니다.",
+    colors: { frame: "블랙 / 화이트 골드", lens: "블랙 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "아세테이트 / 티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "C1WG", name: "블랙 / 화이트 골드", color: sunGlasses08_color_01, thumbnail: sunGlasses08_01_02, id: 33 },
+      { code: "C1PG", name: "블랙 / 핑크 골드", color: sunGlasses08_color_02, thumbnail: sunGlasses08_02_02, id: 34  },
+      { code: "C1MG", name: "블랙 / 반무광 골드", color: sunGlasses08_color_03, thumbnail: sunGlasses08_03_02, id: 35  },
+      { code: "C1MBK", name: "블랙 / 반무광 블랙", color: sunGlasses08_color_04, thumbnail: sunGlasses08_04_02, id: 36  }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 23 mm"],
+      lens:  ["C - 가로길이 53 mm",  "D - 세로길이 42 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses08_01_01, sunGlasses08_01_02, sunGlasses08_01_03, sunGlasses08_01_04, sunGlasses08_01_05, sunGlasses08_01_06, sunGlasses08_01_07, sunGlasses08_01_08, caseImg ],
+    mainProduct: false
+  },
+  {
+    id: 34,
+    name: "HM8 C1PG",
+    img: sunGlasses08_02_01,
+    price: 285000,
+    description:"덧대어지는 공예품의 비정형적 형상을 프로젝트 프로덕트만의 모던함으로 풀어낸 티타늄 선글라스.\n브릿지와 템플에 이중으로 덧댄 메탈 디테일이 조형적 입체감을 부여하여 추상적인 이미지를 볼륨있는 형태로 자연스레 담아냈습니다.",
+    colors: { frame: "블랙 / 핑크 골드", lens: "블랙 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "아세테이트 / 티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "C1WG", name: "블랙 / 화이트 골드", color: sunGlasses08_color_01, thumbnail: sunGlasses08_01_02, id: 33 },
+      { code: "C1PG", name: "블랙 / 핑크 골드", color: sunGlasses08_color_02, thumbnail: sunGlasses08_02_02, id: 34  },
+      { code: "C1MG", name: "블랙 / 반무광 골드", color: sunGlasses08_color_03, thumbnail: sunGlasses08_03_02, id: 35  },
+      { code: "C1MBK", name: "블랙 / 반무광 블랙", color: sunGlasses08_color_04, thumbnail: sunGlasses08_04_02, id: 36  }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 23 mm"],
+      lens:  ["C - 가로길이 53 mm",  "D - 세로길이 42 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses08_02_01, sunGlasses08_02_02, sunGlasses08_02_03, sunGlasses08_02_04, sunGlasses08_02_05, sunGlasses08_02_06, sunGlasses08_02_07, sunGlasses08_02_08, caseImg ],
+    mainProduct: false
+  },
+  {
+    id: 35,
+    name: "HM8 C1MG",
+    img: sunGlasses08_03_01,
+    price: 285000,
+    description:"덧대어지는 공예품의 비정형적 형상을 프로젝트 프로덕트만의 모던함으로 풀어낸 티타늄 선글라스.\n브릿지와 템플에 이중으로 덧댄 메탈 디테일이 조형적 입체감을 부여하여 추상적인 이미지를 볼륨있는 형태로 자연스레 담아냈습니다.",
+    colors: { frame: "블랙 / 반무광 골드", lens: "그린 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "아세테이트 / 티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "C1WG", name: "블랙 / 화이트 골드", color: sunGlasses08_color_01, thumbnail: sunGlasses08_01_02, id: 33 },
+      { code: "C1PG", name: "블랙 / 핑크 골드", color: sunGlasses08_color_02, thumbnail: sunGlasses08_02_02, id: 34  },
+      { code: "C1MG", name: "블랙 / 반무광 골드", color: sunGlasses08_color_03, thumbnail: sunGlasses08_03_02, id: 35  },
+      { code: "C1MBK", name: "블랙 / 반무광 블랙", color: sunGlasses08_color_04, thumbnail: sunGlasses08_04_02, id: 36  }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 23 mm"],
+      lens:  ["C - 가로길이 53 mm",  "D - 세로길이 42 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses08_03_01, sunGlasses08_03_02, sunGlasses08_03_03, sunGlasses08_03_04, sunGlasses08_03_05, sunGlasses08_03_06, sunGlasses08_03_07, sunGlasses08_03_08, caseImg ],
+    mainProduct: true
+  },
+  {
+    id: 36,
+    name: "HM8 C1MBK",
+    img: sunGlasses08_04_01,
+    price: 285000,
+    description:"덧대어지는 공예품의 비정형적 형상을 프로젝트 프로덕트만의 모던함으로 풀어낸 티타늄 선글라스.\n브릿지와 템플에 이중으로 덧댄 메탈 디테일이 조형적 입체감을 부여하여 추상적인 이미지를 볼륨있는 형태로 자연스레 담아냈습니다.",
+    colors: { frame: "블랙 / 반무광 블랙", lens: "블랙 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "아세테이트 / 티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "C1WG", name: "블랙 / 화이트 골드", color: sunGlasses08_color_01, thumbnail: sunGlasses08_01_02, id: 33 },
+      { code: "C1PG", name: "블랙 / 핑크 골드", color: sunGlasses08_color_02, thumbnail: sunGlasses08_02_02, id: 34  },
+      { code: "C1MG", name: "블랙 / 반무광 골드", color: sunGlasses08_color_03, thumbnail: sunGlasses08_03_02, id: 35  },
+      { code: "C1MBK", name: "블랙 / 반무광 블랙", color: sunGlasses08_color_04, thumbnail: sunGlasses08_04_02, id: 36  }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 23 mm"],
+      lens:  ["C - 가로길이 53 mm",  "D - 세로길이 42 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses08_04_01, sunGlasses08_04_02, sunGlasses08_04_03, sunGlasses08_04_04, sunGlasses08_04_05, sunGlasses08_04_06, sunGlasses08_04_07, sunGlasses08_04_08, caseImg ],
+    mainProduct: false
+  },
+
+  // sunGlasses 9 37~
+  {
+    id: 37,
+    name: "HM9 C1WG",
+    img: sunGlasses09_01_01,
+    price: 285000,
+    description:"덧대어지는 공예품의 비정형적 형상을 프로젝트 프로덕트만의 모던함으로 풀어낸 티타늄 선글라스.\n브릿지와 템플에 이중으로 덧댄 메탈 디테일이 조형적 입체감을 부여하여 추상적인 이미지를 볼륨있는 형태로 자연스레 담아냈습니다.",
+    colors: { frame: "블랙 / 화이트 골드", lens: "블랙 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "아세테이트 / 티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "HM9 C1WG", name: "블랙 / 화이트 골드", color: sunGlasses09_color_01, thumbnail: sunGlasses09_01_02, id: 37 },
+      { code: "HM9 C1PG", name: "블랙 / 핑크 골드", color: sunGlasses09_color_02, thumbnail: sunGlasses09_02_02, id: 38 },
+      { code: "HM9 C1MG", name: "블랙 / 반무광 골드", color: sunGlasses09_color_03, thumbnail: sunGlasses09_03_02, id: 39 },
+      { code: "HM9 C1MBK", name: "블랙 / 반무광 블랙", color: sunGlasses09_color_04, thumbnail: sunGlasses09_04_02, id: 40 }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 24 mm"],
+      lens:  ["C - 가로길이 53 mm",  "D - 세로길이 42 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses09_01_01, sunGlasses09_01_02, sunGlasses09_01_03, sunGlasses09_01_04, sunGlasses09_01_05, sunGlasses09_01_06, sunGlasses09_01_07, sunGlasses09_01_08, caseImg ],
+    mainProduct: false
+  },
+  {
+    id: 38,
+    name: "HM9 C1PG",
+    img: sunGlasses09_02_01,
+    price: 285000,
+    description:"덧대어지는 공예품의 비정형적 형상을 프로젝트 프로덕트만의 모던함으로 풀어낸 티타늄 선글라스.\n브릿지와 템플에 이중으로 덧댄 메탈 디테일이 조형적 입체감을 부여하여 추상적인 이미지를 볼륨있는 형태로 자연스레 담아냈습니다.",
+    colors: { frame: "블랙 / 핑크 골드", lens: "블랙 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "아세테이트 / 티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "HM9 C1WG", name: "블랙 / 화이트 골드", color: sunGlasses09_color_01, thumbnail: sunGlasses09_01_02, id: 37 },
+      { code: "HM9 C1PG", name: "블랙 / 핑크 골드", color: sunGlasses09_color_02, thumbnail: sunGlasses09_02_02, id: 38 },
+      { code: "HM9 C1MG", name: "블랙 / 반무광 골드", color: sunGlasses09_color_03, thumbnail: sunGlasses09_03_02, id: 39 },
+      { code: "HM9 C1MBK", name: "블랙 / 반무광 블랙", color: sunGlasses09_color_04, thumbnail: sunGlasses09_04_02, id: 40 }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 24 mm"],
+      lens:  ["C - 가로길이 53 mm",  "D - 세로길이 42 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses09_02_01, sunGlasses09_02_02, sunGlasses09_02_03, sunGlasses09_02_04, sunGlasses09_02_05, sunGlasses09_02_06, sunGlasses09_02_07, sunGlasses09_02_08, caseImg ],
+    mainProduct: false
+  },
+  {
+    id: 39,
+    name: "HM9 C1MG",
+    img: sunGlasses09_03_01,
+    price: 285000,
+    description:"덧대어지는 공예품의 비정형적 형상을 프로젝트 프로덕트만의 모던함으로 풀어낸 티타늄 선글라스.\n브릿지와 템플에 이중으로 덧댄 메탈 디테일이 조형적 입체감을 부여하여 추상적인 이미지를 볼륨있는 형태로 자연스레 담아냈습니다.",
+    colors: { frame: "블랙 / 반무광 골드", lens: "그린 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "아세테이트 / 티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "HM9 C1WG", name: "블랙 / 화이트 골드", color: sunGlasses09_color_01, thumbnail: sunGlasses09_01_02, id: 37 },
+      { code: "HM9 C1PG", name: "블랙 / 핑크 골드", color: sunGlasses09_color_02, thumbnail: sunGlasses09_02_02, id: 38 },
+      { code: "HM9 C1MG", name: "블랙 / 반무광 골드", color: sunGlasses09_color_03, thumbnail: sunGlasses09_03_02, id: 39 },
+      { code: "HM9 C1MBK", name: "블랙 / 반무광 블랙", color: sunGlasses09_color_04, thumbnail: sunGlasses09_04_02, id: 40 }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 24 mm"],
+      lens:  ["C - 가로길이 53 mm",  "D - 세로길이 42 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses09_03_01, sunGlasses09_03_02, sunGlasses09_03_03, sunGlasses09_03_04, sunGlasses09_03_05, sunGlasses09_03_06, sunGlasses09_03_07, sunGlasses09_03_08, caseImg ],
+    mainProduct: false
+  },
+  {
+    id: 40,
+    name: "HM9 C1MBK",
+    img: sunGlasses09_04_01,
+    price: 285000,
+    description:"덧대어지는 공예품의 비정형적 형상을 프로젝트 프로덕트만의 모던함으로 풀어낸 티타늄 선글라스.\n브릿지와 템플에 이중으로 덧댄 메탈 디테일이 조형적 입체감을 부여하여 추상적인 이미지를 볼륨있는 형태로 자연스레 담아냈습니다.",
+    colors: { frame: "블랙 / 반무광 블랙", lens: "블랙 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "아세테이트 / 티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "HM9 C1WG", name: "블랙 / 화이트 골드", color: sunGlasses09_color_01, thumbnail: sunGlasses09_01_02, id: 37 },
+      { code: "HM9 C1PG", name: "블랙 / 핑크 골드", color: sunGlasses09_color_02, thumbnail: sunGlasses09_02_02, id: 38 },
+      { code: "HM9 C1MG", name: "블랙 / 반무광 골드", color: sunGlasses09_color_03, thumbnail: sunGlasses09_03_02, id: 39 },
+      { code: "HM9 C1MBK", name: "블랙 / 반무광 블랙", color: sunGlasses09_color_04, thumbnail: sunGlasses09_04_02, id: 40 }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 24 mm"],
+      lens:  ["C - 가로길이 53 mm",  "D - 세로길이 42 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses09_04_01, sunGlasses09_04_02, sunGlasses09_04_03, sunGlasses09_04_04, sunGlasses09_04_05, sunGlasses09_04_06, sunGlasses09_04_07, sunGlasses09_04_08, caseImg ],
+    mainProduct: true
+  },
+
+  // sunGlasses 10 41~
+  {
+    id: 41,
+    name: "HM10 C1",
+    img: sunGlasses10_01_01,
+    price: 275000,
+    description:"간결한 실루엣의 사각 아세테이트 선글라스.\n군더더기 없이 뻗어나가는 프레임은 모던한 분위기를 연출하며, 프레임과 템플의 정교하게 깎아낸 엣지와 메탈 심볼로 세련된 디테일을 더했습니다.",
+    colors: { frame: "블랙", lens: "블랙 렌즈 (자외선 차단 99.9%)" },
+    materials: { overall: "아세테이트" },
+    variants: [
+      { code: "HM10 C1", name: "블랙" , color: sunGlasses10_color_01, thumbnail: sunGlasses10_01_02, id: 41 },
+      { code: "HM10 C3", name: "톨토이즈", color: sunGlasses10_color_02, thumbnail: sunGlasses10_02_02, id: 42 },
+      { code: "HM10 C06", name: "라이트 블루", color: sunGlasses10_color_03, thumbnail: sunGlasses10_03_02, id: 43 },
+      { code: "HM10 C1FL", name: "블랙(플랫바 프레임)", color: sunGlasses10_color_04, thumbnail: sunGlasses10_04_02, id: 44 },
+      { code: "HM10 C1FL(Purple Tint)", name: "블랙(플랫바 프레임)", color: sunGlasses10_color_05, thumbnail: sunGlasses10_05_02, id: 45 }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 22 mm"],
+      lens:  ["C - 가로길이 51 mm",  "D - 세로길이 40 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses10_01_01, sunGlasses10_01_02, sunGlasses10_01_03, sunGlasses10_01_04, sunGlasses10_01_05, sunGlasses10_01_06, sunGlasses10_01_07, sunGlasses10_01_08, caseImg ],
+    mainProduct: true
+  },
+  {
+    id: 42,
+    name: "HM10 C3",
+    img: sunGlasses10_02_01,
+    price: 275000,
+    description:"간결한 실루엣의 사각 아세테이트 선글라스.\n군더더기 없이 뻗어나가는 프레임은 모던한 분위기를 연출하며, 프레임과 템플의 정교하게 깎아낸 엣지와 메탈 심볼로 세련된 디테일을 더했습니다.",
+    colors: { frame: "톨토이즈", lens: "그린 렌즈 (자외선 차단 99.9%)" },
+    materials: { overall: "아세테이트" },
+    variants: [
+      { code: "HM10 C1", name: "블랙" , color: sunGlasses10_color_01, thumbnail: sunGlasses10_01_02, id: 41 },
+      { code: "HM10 C3", name: "톨토이즈", color: sunGlasses10_color_02, thumbnail: sunGlasses10_02_02, id: 42 },
+      { code: "HM10 C06", name: "라이트 블루", color: sunGlasses10_color_03, thumbnail: sunGlasses10_03_02, id: 43 },
+      { code: "HM10 C1FL", name: "블랙(플랫바 프레임)", color: sunGlasses10_color_04, thumbnail: sunGlasses10_04_02, id: 44 },
+      { code: "HM10 C1FL(Purple Tint)", name: "블랙(플랫바 프레임)", color: sunGlasses10_color_05, thumbnail: sunGlasses10_05_02, id: 45 }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 22 mm"],
+      lens:  ["C - 가로길이 51 mm",  "D - 세로길이 40 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses10_02_01, sunGlasses10_02_02, sunGlasses10_02_03, sunGlasses10_02_04, sunGlasses10_02_05, sunGlasses10_02_06, sunGlasses10_02_07, sunGlasses10_02_08, caseImg ],
+    mainProduct: false
+  },
+  {
+    id: 43,
+    name: "HM10 C06",
+    img: sunGlasses10_03_01,
+    price: 275000,
+    description:"간결한 실루엣의 사각 아세테이트 선글라스.\n군더더기 없이 뻗어나가는 프레임은 모던한 분위기를 연출하며, 프레임과 템플의 정교하게 깎아낸 엣지와 메탈 심볼로 세련된 디테일을 더했습니다.",
+    colors: { frame: "라이트 블루", lens: "핑크 틴트 렌즈 (자외선 차단 99.9%)" },
+    materials: { overall: "아세테이트" },
+    variants: [
+      { code: "HM10 C1", name: "블랙" , color: sunGlasses10_color_01, thumbnail: sunGlasses10_01_02, id: 41 },
+      { code: "HM10 C3", name: "톨토이즈", color: sunGlasses10_color_02, thumbnail: sunGlasses10_02_02, id: 42 },
+      { code: "HM10 C06", name: "라이트 블루", color: sunGlasses10_color_03, thumbnail: sunGlasses10_03_02, id: 43 },
+      { code: "HM10 C1FL", name: "블랙(플랫바 프레임)", color: sunGlasses10_color_04, thumbnail: sunGlasses10_04_02, id: 44 },
+      { code: "HM10 C1FL(Purple Tint)", name: "블랙(플랫바 프레임)", color: sunGlasses10_color_05, thumbnail: sunGlasses10_05_02, id: 45 }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 22 mm"],
+      lens:  ["C - 가로길이 51 mm",  "D - 세로길이 40 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses10_03_01, sunGlasses10_03_02, sunGlasses10_03_03, sunGlasses10_03_04, sunGlasses10_03_05, sunGlasses10_03_06, sunGlasses10_03_07, sunGlasses10_03_08, caseImg ],
+    mainProduct: false
+  },
+  {
+    id: 44,
+    name: "HM10 C1FL",
+    img: sunGlasses10_04_01,
+    price: 275000,
+    description:"간결한 실루엣의 사각 아세테이트 선글라스.\n군더더기 없이 뻗어나가는 프레임은 모던한 분위기를 연출하며, 프레임과 템플의 정교하게 깎아낸 엣지와 메탈 심볼로 세련된 디테일을 더했습니다.",
+    colors: { frame: "블랙 (플랫바 프레임)", lens: "블랙 렌즈 (자외선 차단 99.9%)" },
+    materials: { overall: "아세테이트" },
+    variants: [
+      { code: "HM10 C1", name: "블랙" , color: sunGlasses10_color_01, thumbnail: sunGlasses10_01_02, id: 41 },
+      { code: "HM10 C3", name: "톨토이즈", color: sunGlasses10_color_02, thumbnail: sunGlasses10_02_02, id: 42 },
+      { code: "HM10 C06", name: "라이트 블루", color: sunGlasses10_color_03, thumbnail: sunGlasses10_03_02, id: 43 },
+      { code: "HM10 C1FL", name: "블랙(플랫바 프레임)", color: sunGlasses10_color_04, thumbnail: sunGlasses10_04_02, id: 44 },
+      { code: "HM10 C1FL(Purple Tint)", name: "블랙(플랫바 프레임)", color: sunGlasses10_color_05, thumbnail: sunGlasses10_05_02, id: 45 }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 22 mm"],
+      lens:  ["C - 가로길이 51 mm",  "D - 세로길이 40 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses10_04_01, sunGlasses10_04_02, sunGlasses10_04_03, sunGlasses10_04_04, sunGlasses10_04_05, sunGlasses10_04_06, sunGlasses10_04_07, sunGlasses10_04_08, caseImg ],
+    mainProduct: false
+  },
+  {
+    id: 45,
+    name: "HM10 C1FL(Purple Tint)",
+    img: sunGlasses10_05_01,
+    price: 275000,
+    description:"간결한 실루엣의 사각 아세테이트 선글라스.\n군더더기 없이 뻗어나가는 프레임은 모던한 분위기를 연출하며, 프레임과 템플의 정교하게 깎아낸 엣지와 메탈 심볼로 세련된 디테일을 더했습니다.",
+    colors: { frame: "블랙 (플랫바 프레임)", lens: "퍼플 틴트 렌즈 (자외선 차단 99.9%)" },
+    materials: { overall: "아세테이트" },
+    variants: [
+      { code: "HM10 C1", name: "블랙" , color: sunGlasses10_color_01, thumbnail: sunGlasses10_01_02, id: 41 },
+      { code: "HM10 C3", name: "톨토이즈", color: sunGlasses10_color_02, thumbnail: sunGlasses10_02_02, id: 42 },
+      { code: "HM10 C06", name: "라이트 블루", color: sunGlasses10_color_03, thumbnail: sunGlasses10_03_02, id: 43 },
+      { code: "HM10 C1FL", name: "블랙(플랫바 프레임)", color: sunGlasses10_color_04, thumbnail: sunGlasses10_04_02, id: 44 },
+      { code: "HM10 C1FL(Purple Tint)", name: "블랙(플랫바 프레임)", color: sunGlasses10_color_05, thumbnail: sunGlasses10_05_02, id: 45 }
+    ],
+    size: {
+      frame: ["A - 전면길이 149 mm", "B - 코브릿지 22 mm"],
+      lens:  ["C - 가로길이 51 mm",  "D - 세로길이 40 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses10_05_01, sunGlasses10_05_02, sunGlasses10_05_03, sunGlasses10_05_04, sunGlasses10_05_05, sunGlasses10_05_06, sunGlasses10_05_07, sunGlasses10_05_08, caseImg ],
+    mainProduct: false
+  },
+
+  // sunGlasses 11 46~
+  {
+    id: 46,
+    name: "HM11 CG",
+    img: sunGlasses11_01_01,
+    price: 335000,
+    description:"비정형적인 메탈 볼륨감을 사용하여 PROJECT12 테마인 인간다움(Humanity)을 표현한 오벌 티타늄 안경.\n볼륨감이 돋보이는 브릿지와 엔드피스-템플의 디테일은 메탈이 덧붙이는 느낌을 주어 독특한 개성을 더하였습니다.",
+    colors: { frame: "골드", lens: "블루 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "CG", name: "골드", color: sunGlasses11_color_01, thumbnail: sunGlasses11_01_02, id: 46 },
+      { code: "CWG", name: "화이트 골드", color: sunGlasses11_color_02, thumbnail: sunGlasses11_02_02, id: 47 },
+      { code: "CMBK", name: "반무광 블랙", color: sunGlasses11_color_03, thumbnail: sunGlasses11_03_02, id: 48 },
+      { code: "C1PG", name: "핑크 골드(브릿지 & 엔드피스 : 반무광 블랙)", color: sunGlasses11_color_04, thumbnail: sunGlasses11_04_02, id: 49 }
+    ],
+    size: {
+      frame: ["A - 전면길이 145 mm", "B - 코브릿지 20 mm"],
+      lens:  ["C - 가로길이 52 mm",  "D - 세로길이 38 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses11_01_01, sunGlasses11_01_02, sunGlasses11_01_03, sunGlasses11_01_04, sunGlasses11_01_05, sunGlasses11_01_06, sunGlasses11_01_07, sunGlasses11_01_08, caseImg ],
+    mainProduct: true
+  },
+  {
+    id: 47,
+    name: "HM11 CWG",
+    img: sunGlasses11_02_01,
+    price: 335000,
+    description:"비정형적인 메탈 볼륨감을 사용하여 PROJECT12 테마인 인간다움(Humanity)을 표현한 오벌 티타늄 안경.\n볼륨감이 돋보이는 브릿지와 엔드피스-템플의 디테일은 메탈이 덧붙이는 느낌을 주어 독특한 개성을 더하였습니다.",
+    colors: { frame: "화이트 골드", lens: "블랙 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "CG", name: "골드", color: sunGlasses11_color_01, thumbnail: sunGlasses11_01_02, id: 46 },
+      { code: "CWG", name: "화이트 골드", color: sunGlasses11_color_02, thumbnail: sunGlasses11_02_02, id: 47 },
+      { code: "CMBK", name: "반무광 블랙", color: sunGlasses11_color_03, thumbnail: sunGlasses11_03_02, id: 48 },
+      { code: "C1PG", name: "핑크 골드(브릿지 & 엔드피스 : 반무광 블랙)", color: sunGlasses11_color_04, thumbnail: sunGlasses11_04_02, id: 49 }
+    ],
+    size: {
+      frame: ["A - 전면길이 145 mm", "B - 코브릿지 20 mm"],
+      lens:  ["C - 가로길이 52 mm",  "D - 세로길이 38 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses11_02_01, sunGlasses11_02_02, sunGlasses11_02_03, sunGlasses11_02_04, sunGlasses11_02_05, sunGlasses11_02_06, sunGlasses11_02_07, sunGlasses11_02_08, caseImg ],
+    mainProduct: false
+  },
+  {
+    id: 48,
+    name: "HM11 CMBK",
+    img: sunGlasses11_03_01,
+    price: 335000,
+    description:"비정형적인 메탈 볼륨감을 사용하여 PROJECT12 테마인 인간다움(Humanity)을 표현한 오벌 티타늄 안경.\n볼륨감이 돋보이는 브릿지와 엔드피스-템플의 디테일은 메탈이 덧붙이는 느낌을 주어 독특한 개성을 더하였습니다.",
+    colors: { frame: "반무광 블랙", lens: "그린 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "CG", name: "골드", color: sunGlasses11_color_01, thumbnail: sunGlasses11_01_02, id: 46 },
+      { code: "CWG", name: "화이트 골드", color: sunGlasses11_color_02, thumbnail: sunGlasses11_02_02, id: 47 },
+      { code: "CMBK", name: "반무광 블랙", color: sunGlasses11_color_03, thumbnail: sunGlasses11_03_02, id: 48 },
+      { code: "C1PG", name: "핑크 골드(브릿지 & 엔드피스 : 반무광 블랙)", color: sunGlasses11_color_04, thumbnail: sunGlasses11_04_02, id: 49 }
+    ],
+    size: {
+      frame: ["A - 전면길이 145 mm", "B - 코브릿지 20 mm"],
+      lens:  ["C - 가로길이 52 mm",  "D - 세로길이 38 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses11_03_01, sunGlasses11_03_02, sunGlasses11_03_03, sunGlasses11_03_04, sunGlasses11_03_05, sunGlasses11_03_06, sunGlasses11_03_07, sunGlasses11_03_08, caseImg ],
+    mainProduct: false
+  },
+  {
+    id: 49,
+    name: "HM11 C1PG",
+    img: sunGlasses11_04_01,
+    price: 335000,
+    description:"비정형적인 메탈 볼륨감을 사용하여 PROJECT12 테마인 인간다움(Humanity)을 표현한 오벌 티타늄 안경.\n볼륨감이 돋보이는 브릿지와 엔드피스-템플의 디테일은 메탈이 덧붙이는 느낌을 주어 독특한 개성을 더하였습니다.",
+    colors: { frame: "핑크 골드(브릿지 & 엔드피스 : 반무광 블랙), 반무광 블랙", lens: "브라운 렌즈 (자외선 차단 99.9%)" },
+    materials: { front: "티타늄", temple: "티타늄 / 아세테이트" },
+    variants: [
+      { code: "CG", name: "골드", color: sunGlasses11_color_01, thumbnail: sunGlasses11_01_02, id: 46 },
+      { code: "CWG", name: "화이트 골드", color: sunGlasses11_color_02, thumbnail: sunGlasses11_02_02, id: 47 },
+      { code: "CMBK", name: "반무광 블랙", color: sunGlasses11_color_03, thumbnail: sunGlasses11_03_02, id: 48 },
+      { code: "C1PG", name: "핑크 골드(브릿지 & 엔드피스 : 반무광 블랙), 반무광 블랙", color: sunGlasses11_color_04, thumbnail: sunGlasses11_04_02, id: 49 }
+    ],
+    size: {
+      frame: ["A - 전면길이 145 mm", "B - 코브릿지 20 mm"],
+      lens:  ["C - 가로길이 52 mm",  "D - 세로길이 38 mm"],
+      leg:   ["E - 다리길이 150 mm"],
+    },
+    gallery: [ sunGlasses11_04_01, sunGlasses11_04_02, sunGlasses11_04_03, sunGlasses11_04_04, sunGlasses11_04_05, sunGlasses11_04_06, sunGlasses11_04_07, sunGlasses11_04_08, caseImg ],
+    mainProduct: false
+  },
 ];
 
 

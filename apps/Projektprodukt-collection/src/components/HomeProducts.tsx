@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import sunglassesCircle from "../assets/images/etc/sunglasses-circle.png"
+import { sunglassesCircle } from "../data/imageImportData";
 
 interface IProps {
   name: string;

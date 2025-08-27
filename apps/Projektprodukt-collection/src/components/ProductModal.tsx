@@ -42,7 +42,7 @@ export default function ProductModal({modalState, modalClose, selectedProduct}:I
     {/* 모달 */}
     <div className={`fixed top-0 left-0 z-20 w-full h-full px-5 lg:px-10 py-20 flex justify-center items-center transition-opacity duration-500 ${modalState? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}>
       <div className="relative bg-white w-full h-full px-5 lg:w-4/5 lg:h-[90%] rounded-2xl lg:px-10 py-20 lg:py-20">
-        <div ref={scrollerRef} className="h-full flex items-start gap-5 lg:gap-20 flex-col lg:justify-center lg:flex-row overflow-y-scroll scrollbar">
+        <div ref={scrollerRef} className="h-full flex items-start gap-5 lg:gap-20 flex-col lg:justify-center lg:flex-row overflow-y-scroll">
           <div className="flex-shrink-0 my-0 mx-auto lg:mx-0">
             <img src={anotherColor?.img ?? selectedProduct?.img} alt={selectedProduct?.name} className="size-[clamp(10rem,25vw,20rem)] rounded-2xl"/>
           </div>
@@ -122,7 +122,7 @@ export default function ProductModal({modalState, modalClose, selectedProduct}:I
         </div>
         <button className="absolute right-0 -top-10 h-10 text-base font-ppSans ppBold text-white" onClick={modalClose}>close</button>
       </div>
-      <div className={`absolute z-10 w-[clamp(80px,10vw,150px)] overflow-hidden pointer-events-none transition-[height] duration-500 ease-out ${previewThumbnailOpen ? 'h-[clamp(80px,10vw,150px)]' : 'h-0'}`} style={{ left: preview?.x, top: preview?.y}} onTransitionEnd={() => {if(!previewThumbnailOpen) setPreview(null)}}>
+      <div className={`absolute z-10 w-[clamp(80px,10vw,150px)] overflow-hidden pointer-events-none transition-[height] duration-200 ease-out ${previewThumbnailOpen ? 'h-[clamp(80px,10vw,150px)]' : 'h-0'}`} style={{ left: preview?.x, top: preview?.y}} onTransitionEnd={() => {if(!previewThumbnailOpen)setPreview(null)}}>
         <img src={preview?.src} alt="thumbnail" className="size-[clamp(100px,10vw,150px)] object-center" />
       </div>
     </div>
