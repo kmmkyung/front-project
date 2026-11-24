@@ -7,10 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "reset": "rm -rf ../portfolio/* && cp -R dist/* ../portfolio/ && cp ../portfolio/index.html ../404.html && touch ../.nojekyll",
-    "add": "git add ../portfolio ../404.html ../.nojekyll"
-
+    "preview": "vite preview"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
