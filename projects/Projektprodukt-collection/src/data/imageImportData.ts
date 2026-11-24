@@ -7,7 +7,7 @@ import aboutBg02 from '../assets/images/about/background-02.jpg';
 import aboutBg03 from '../assets/images/about/background-03.jpg';
 
 import collection_video from '../assets/video/collection-video.mp4';
-import collection01 from '../assets/images/collection/Collection-01.jpg';
+import collection01 from '../assets/images/collection/collection-01.jpg';
 
 import glasses01 from '../assets/images/product/Glasses/Glasses-01.jpg';
 import glasses02 from '../assets/images/product/Glasses/Glasses-02.jpg';
