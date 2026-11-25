@@ -6,27 +6,29 @@ import Footer from "./components/Footer";
 
 function App() {
   const { pathname } = useLocation();
-  const [showLoader, setShowLoader] = useState(true);
+  // 로딩 화면은 배포 빌드(npm run build)에서만 보여줌.
+  // 개발 서버(npm run dev)에서는 작업 편의를 위해 건너뜀.
+  const [showLoader, setShowLoader] = useState(import.meta.env.PROD);
 
   useEffect(()=>{
     window.scrollTo(0,0);
   },[pathname])
 
-  // useEffect(() => {
-  //   if (showLoader) {
-  //     document.body.style.overflow = "hidden";
-  //   }
-  //   else {
-  //     document.body.style.overflow = "auto";
-  //   }
-  //   return () => {
-  //     document.body.style.overflow = "auto";
-  //   }
-  // }, [showLoader]);
+  useEffect(() => {
+    if (showLoader) {
+      document.body.style.overflow = "hidden";
+    }
+    else {
+      document.body.style.overflow = "auto";
+    }
+    return () => {
+      document.body.style.overflow = "auto";
+    }
+  }, [showLoader]);
 
   return (
     <>
-      {/* {showLoader ? 
+      {showLoader ?
         <Loading onFinished={() => setShowLoader(false)} />
         :
         <>
@@ -34,12 +36,7 @@ function App() {
         <Outlet />
         <Footer/>
         </>
-      } */}
-      <>
-      <Header />
-      <Outlet />
-      <Footer/>
-      </>
+      }
     </>
   )
 }

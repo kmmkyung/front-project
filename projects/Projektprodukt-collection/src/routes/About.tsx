@@ -1,4 +1,4 @@
-import { about_video, aboutBg01, aboutBg02, aboutBg03 } from "../data/imageImportData";
+import { about_video, aboutBg01 } from "../data/imageImportData";
 import ReactLenis, { useLenis } from "lenis/react";
 import { useEffect, useRef } from "react";
 
