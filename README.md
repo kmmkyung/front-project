@@ -5,15 +5,23 @@
 
 ## 프로젝트 목록
 
-| 프로젝트 | 연도 | 프레임워크 | 빌드 도구 | 주요 스택 | 설명 | 배포 |
-|---|---|---|---|---|---|---|
-| [portfolio](./projects/portfolio) | 2025 | React 19.1 | Vite 7.1 | TypeScript 5.8, React Router 7.8, GSAP 3.13, Sass 1.108 | 포트폴리오 사이트 | |
-| [projektprodukt-collection](./projects/projektprodukt-collection) | 2025 | React 19.3 | Vite 7.3 | TypeScript 5.8, React Router 7.18, Tailwind CSS 3.4, GSAP 3.15, Lenis 1.3, Swiper 11.2 | | |
-| [disney-plus](./projects/disney-plus) | 2024 | React 18.3 | CRA (react-scripts 5.0) | TypeScript 4.9, React Router 7.1, styled-components 6.1, Recoil 0.7, React Query 5.66, Firebase 11.3 | 디즈니플러스 클론 | Firebase Hosting |
-| [karrot-market](./projects/karrot-market) | 2024 | Next 15.1 (React 19.0) | Next 15.1 | TypeScript 5.7, Prisma 6 (PostgreSQL), Supabase JS 2.49, Tailwind CSS 3.4, daisyUI 4.12 | 중고거래 사이트 | |
-| [lofi-wines](./projects/lofi-wines) | 2023 | Vue 3.5 | Vue CLI 5.0 | Vue Router 4.5, Vuex 4.1 | 와인 소개 사이트 | [GitHub Pages](https://kmmkyung.github.io/PJ-LOFI/) |
+| 프로젝트 | 연도 | 프레임워크 | 빌드 도구 | 설명 | 배포 |
+|---|---|---|---|---|---|
+| [portfolio](./projects/portfolio) | 2025 | React 19.1 | Vite 7.1 | 포트폴리오 사이트 | |
+| [projektprodukt-collection](./projects/projektprodukt-collection) | 2025 | React 19.3 | Vite 7.3 | | |
+| [disney-plus](./projects/disney-plus) | 2024 | React 18.3 | CRA 5.0 | 디즈니플러스 클론 | [Firebase](https://react-disneyplus-app-6c3fc.web.app/) |
+| [karrot-market](./projects/karrot-market) | 2024 | Next 15.1 | Next 15.1 | 중고거래 사이트 | [Vercel](https://carrot-market-flame.vercel.app/) |
+| [lofi-wines](./projects/lofi-wines) | 2023 | Vue 3.5 | Vue CLI 5.0 | 와인 소개 사이트 | [GitHub Pages](https://kmmkyung.github.io/PJ-LOFI/) |
 
-버전은 각 프로젝트의 `package-lock.json`에 고정된 실제 설치 버전 기준입니다(주.부 버전까지). 라이브러리를 업데이트하면 이 표도 같이 고칩니다.
+## 프로젝트별 스택
+
+- **portfolio**: TypeScript 5.8 · React Router 7.8 · GSAP 3.13 · Sass 1.108
+- **projektprodukt-collection**: TypeScript 5.8 · React Router 7.18 · Tailwind CSS 3.4 · GSAP 3.15 · Lenis 1.3 · Swiper 11.2
+- **disney-plus**: TypeScript 4.9 · React Router 7.1 · styled-components 6.1 · Recoil 0.7 · React Query 5.66 · Firebase 11.3
+- **karrot-market**: React 19.0 · TypeScript 5.7 · Prisma 6 + Neon(PostgreSQL) · Supabase Realtime(채팅) · Cloudinary(이미지) · Tailwind CSS 3.4 · daisyUI 4.12
+- **lofi-wines**: Vue Router 4.5 · Vuex 4.1
+
+버전은 각 프로젝트의 `package-lock.json`에 고정된 실제 설치 버전 기준입니다(주.부 버전까지). 라이브러리를 업데이트하면 이 목록도 같이 고칩니다.
 
 ## 구조
 
