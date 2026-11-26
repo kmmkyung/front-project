@@ -1,4 +1,4 @@
-# front-projects
+# front-project
 
 개인 작업과 포트폴리오용 프론트엔드 프로젝트(React, Next, Vue) 모음입니다.
 강의 실습은 [STUDY](https://github.com/kmmkyung/STUDY) 레포에 따로 정리합니다.
@@ -15,7 +15,7 @@
 ## 구조
 
 ```
-front-projects/
+front-project/
 ├── projects/      각 프로젝트 (서로 독립)
 ├── .prettierrc    공통 코드 포맷 규칙
 └── package.json   공통 도구 (prettier)
