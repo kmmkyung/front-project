@@ -15,7 +15,7 @@ const projectData :IProjectData[] = [
     stack: ['HTML', 'CSS', 'JavaScript'],
     stackSvg: [stackData.html, stackData.css, stackData.js],
     mediaQuery: ['DeskTop', 'Tablet', 'Mobile'],
-    site: 'https://kmmkyung.github.io/MK_2023-PJ/03.STARBUCKS/00.Code/index.html',
+    site: 'https://kmmkyung.github.io/STUDY/FastCampus/AIO/1.STARBUCKS-my-version/index.html',
     description: 'Starbucks 공식 사이트 메인페이지를 클론한 프로젝트 입니다.<br/>Vanilla JavaScript로 슬라이드, 아코디언을 직접 구현하였으며, Swiper 등의 외부 라이브러리는 사용하지 않았습니다.<br/>또한 IntersectionObserver를 통해 요소가 화면에 등장할 때 애니메이션이 트리거되도록 설계하였습니다.',
     stickyVisual: imageData.project1.stickyVisual,
     images: imageData.project1.gallery,
