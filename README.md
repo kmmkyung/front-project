@@ -1,6 +1,6 @@
 # front-project
 
-개인 작업과 포트폴리오용 프론트엔드 프로젝트 모음입니다.
+개인 작업과 포트폴리오용 프론트엔드 프로젝트(React, Next, Vue) 모음입니다.
 강의 실습은 [STUDY](https://github.com/kmmkyung/STUDY) 레포에 따로 정리합니다.
 
 ## 프로젝트 목록
@@ -10,6 +10,7 @@
 | [Portfolio](./projects/Portfolio) | Vite, React 19, TypeScript, GSAP | | |
 | [Projektprodukt-collection](./projects/Projektprodukt-collection) | Vite, React 19, TypeScript, Tailwind CSS 3, GSAP, Lenis, Swiper | | |
 | [DisneyPlus](./projects/DisneyPlus) | CRA, React 18, TypeScript, styled-components, Recoil, React Query, Firebase | | |
+| [PJ-LOFI](./projects/PJ-LOFI) | Vue CLI, Vue 3, Vue Router, Vuex | 와인 소개 사이트 (원본: MK_2023-PJ/04.LOFI_Wines) | [GitHub Pages](https://kmmkyung.github.io/PJ-LOFI/) |
 
 ## 구조
 
