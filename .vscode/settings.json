@@ -1,6 +1,6 @@
 {
   "tailwindCSS.experimental.configFile": [
-    "projects/Projektprodukt-collection/tailwind.config.cjs"
+    "projects/projektprodukt-collection/tailwind.config.cjs"
   ],
   "tailwindCSS.classAttributes": ["class", "className"],
   "editor.quickSuggestions": { "strings": true },

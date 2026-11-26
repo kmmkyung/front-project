@@ -1,0 +1,149 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL_NEON")
+}
+
+model User {
+  id              Int        @id @default(autoincrement())
+  username        String     @unique
+  email           String?    @unique
+  password        String?
+  phone           String?    @unique
+  github_id       String?    @unique
+  google_id       String?    @unique
+  kakao_id        String?    @unique
+  avatar          String?    @default("/userAvatar/rabbit.png")
+  updated_at      DateTime   @updatedAt
+  comment         Comment[]
+  like            Like[]
+  message         Message[]
+  post            Post[]
+  product         Product[]
+  writtenReviews  Review[]   @relation("Author")
+  receivedReviews Review[]   @relation("Target")
+  SMSToken        SMSToken[]
+  chatRoom        ChatRoom[] @relation("ChatRoomToUser")
+}
+
+model SMSToken {
+  id         Int      @id @default(autoincrement())
+  token      Int      @unique
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  userId     Int
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Product {
+  id          Int          @id @default(autoincrement())
+  title       String
+  price       Float
+  description String
+  photo       String
+  publicId    String
+  created_at  DateTime     @default(now())
+  updated_at  DateTime     @updatedAt
+  userId      Int
+  category    CategoryType
+  dealt       Boolean      @default(false)
+  chatRoom    ChatRoom[]
+  user        User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  review      Review[]
+}
+
+model Post {
+  id          Int       @id @default(autoincrement())
+  title       String
+  description String
+  views       Int       @default(0)
+  created_at  DateTime  @default(now())
+  updated_at  DateTime  @updatedAt
+  userId      Int
+  comment     Comment[]
+  like        Like[]
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Comment {
+  id         Int      @id @default(autoincrement())
+  payload    String
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  userId     Int
+  postId     Int
+  post       Post     @relation(fields: [postId], references: [id], onDelete: Cascade)
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Like {
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  userId     Int
+  postId     Int
+  post       Post     @relation(fields: [postId], references: [id], onDelete: Cascade)
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, postId], name: "id")
+}
+
+model ChatRoom {
+  id         String    @id @default(cuid())
+  created_at DateTime  @default(now())
+  updated_at DateTime  @updatedAt
+  productId  Int
+  product    Product   @relation(fields: [productId], references: [id])
+  message    Message[]
+  review     Review[]
+  users      User[]    @relation("ChatRoomToUser")
+}
+
+model Message {
+  id         Int         @id @default(autoincrement())
+  created_at DateTime    @default(now())
+  updated_at DateTime    @updatedAt
+  payload    String
+  chatRoomId String
+  userId     Int
+  view       Boolean     @default(false)
+  type       MessageType @default(TEXT)
+  room       ChatRoom    @relation(fields: [chatRoomId], references: [id])
+  user       User        @relation(fields: [userId], references: [id])
+}
+
+model Review {
+  id         Int      @id @default(autoincrement())
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  payload    String
+  userId     Int
+  authorId   Int
+  targetId   Int
+  productId  Int
+  chatRoomId String
+  author     User     @relation("Author", fields: [authorId], references: [id])
+  chatRoom   ChatRoom @relation(fields: [chatRoomId], references: [id])
+  product    Product  @relation(fields: [productId], references: [id])
+  target     User     @relation("Target", fields: [targetId], references: [id])
+}
+
+enum CategoryType {
+  Furniture
+  Electronics
+  Home_Garden
+  Baby_Kids
+  Fashion
+  Health_Beauty
+  Hobbies
+  Books_Music
+  Pet
+  Other
+}
+
+enum MessageType {
+  TEXT
+  DEAL
+}
