@@ -1,0 +1,9 @@
+{
+  "tailwindCSS.experimental.configFile": [
+    "projects/Projektprodukt-collection/tailwind.config.cjs"
+  ],
+  "tailwindCSS.classAttributes": ["class", "className"],
+  "editor.quickSuggestions": { "strings": true },
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore"
+}
