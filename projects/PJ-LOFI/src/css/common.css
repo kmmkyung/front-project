@@ -1,0 +1,12 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--main);
+  font-weight: 300;
+}
+
+/* 미디어쿼리 */
+@media screen and (max-width:780px){
+  nav {
+    width: 100%;
+  }
+}

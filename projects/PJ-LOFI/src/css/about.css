@@ -1,0 +1,112 @@
+main{
+  position: relative;
+}
+
+.about{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.about-left,
+.about-right{
+  width: 50%;
+}
+
+.about-left{
+  position: relative;
+  margin-top: 59px;
+}
+
+.about-content{
+  width: 100%;
+  height: 100%;
+  padding: 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content h3,
+.about-content h4{
+  font-size: var(--font-size-M);
+  font-family: 'Nanum Myeongjo', serif;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.about-content p{
+  font-size: var(--font-size-S);
+  margin-top: 20px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.about-info{
+  position: absolute;
+  bottom: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-info a{
+  font-size: var(--font-size-M);
+}
+
+.about-right{
+  background-color: var(--gray);
+  padding-top: 59px;
+  box-sizing: border-box;
+}
+
+.about-imgBox{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-imgBox>img{
+  object-fit: cover;
+  width: 50%;
+  height: 80%;
+}
+
+/* 미디어쿼리 */
+@media screen and (max-width:990px){
+  .about {
+    height: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .about-left, .about-right {
+    width: 100%;
+  }
+  
+  .about-right {
+    background-color: var(--main);
+    padding: 159px 0 100px 0;
+    box-sizing: content-box;
+  }
+
+  .about-left {
+    margin-top: 0px;
+  }
+  
+  .about-content {
+    padding: 0 20vw;
+    box-sizing: border-box;
+    margin-bottom: 59px;
+  }
+
+  .about-info {
+    position: relative;
+    margin-bottom: 60px;
+    display: inline-block;
+    bottom: auto;
+  }
+}
