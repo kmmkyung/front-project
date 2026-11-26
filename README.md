@@ -7,7 +7,7 @@
 
 <table>
   <tr><th>프로젝트</th><th>연도</th><th>프레임워크</th><th>빌드 도구</th><th>설명</th><th>배포</th></tr>
-  <tr><td><a href="./projects/portfolio"><b>portfolio</b></a></td><td>2025</td><td>React 19.1</td><td>Vite 7.1</td><td>포트폴리오 사이트</td><td></td></tr>
+  <tr><td><a href="./projects/portfolio"><b>portfolio</b></a></td><td>2025</td><td>React 19.1</td><td>Vite 7.1</td><td>포트폴리오 사이트</td><td><a href="https://kmmkyung.github.io/kmmkyung/portfolio/">GitHub Pages</a></td></tr>
   <tr><td colspan="6"><sub>TypeScript 5.8 · React Router 7.8 · GSAP 3.13 · Sass 1.108</sub></td></tr>
   <tr><td><a href="./projects/projektprodukt-collection"><b>projektprodukt-collection</b></a></td><td>2025</td><td>React 19.3</td><td>Vite 7.3</td><td></td><td></td></tr>
   <tr><td colspan="6"><sub>TypeScript 5.8 · React Router 7.18 · Tailwind CSS 3.4 · GSAP 3.15 · Lenis 1.3 · Swiper 11.2</sub></td></tr>
